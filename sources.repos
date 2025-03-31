@@ -1,0 +1,21 @@
+repositories:
+  src/OrbbecSDK_ROS2:
+    type: git
+    url: https://github.com/mul-cps/OrbbecSDK_ROS2.git
+    version: 6102ddb070b1a7d4c4b9231aa1adefa75ea34780
+  src/franka_ros2:
+    type: git
+    url: https://github.com/mul-cps/franka_ros2.git
+    version: 946ff120a8a27027721893c6e04cfdaa201e49b2
+  src/franka_utils:
+    type: git
+    url: https://github.com/boschresearch/franka_utils.git
+    version: 0.1.1
+  src/libfranka:
+    type: git
+    url: https://github.com/boschresearch/libfranka.git
+    version: 59eda8d4f75d9a9f12fa8254630929a0f87e4efe
+  src/mul_franka:
+    type: git
+    url: https://github.com/mul-cps/mul_franka.git
+    version: 2f2261c88d49a50422efeee0213fff9fc712075f
