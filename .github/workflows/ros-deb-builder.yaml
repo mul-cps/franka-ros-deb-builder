@@ -23,4 +23,5 @@ jobs:
           DEB_DISTRO: ${{ matrix.deb }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
+          PACKAGES_BRANCH: orbbec_debs
           SBUILD_CONF: "$enable_network = 1;"
