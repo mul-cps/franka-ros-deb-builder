@@ -19,8 +19,8 @@ repositories:
 
   src/OrbbecSDK_ROS2:
     type: git
-    url: https://github.com/orbbec/OrbbecSDK_ROS2.git
-    version: v2-main
+    url: https://github.com/christian-rauch/OrbbecSDK_ROS2.git
+    version: fix_deps2
 
   src/pymoveit2:
     type: git
