@@ -1,0 +1,9 @@
+orbbec_camera_msgs:
+  ubuntu:
+  - ros-jazzy-orbbec-camera-msgs
+orbbec_description:
+  ubuntu:
+  - ros-jazzy-orbbec-description
+orbbec_camera:
+  ubuntu:
+  - ros-jazzy-orbbec-camera
