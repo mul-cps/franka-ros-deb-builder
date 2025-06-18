@@ -1,0 +1,29 @@
+repositories:
+  src/OrbbecSDK_ROS2:
+    type: git
+    url: https://github.com/orbbec/OrbbecSDK_ROS2.git
+    version: 863fb0025ba587a39f4a2c709c8999f353f065f0
+  src/franka_lock_unlock:
+    type: git
+    url: https://github.com/christian-rauch/franka_lock_unlock.git
+    version: 49c6e11ec7a187bdeacc757245a5efb5cc2738ca
+  src/franka_ros2:
+    type: git
+    url: https://github.com/mul-cps/franka_ros2.git
+    version: b68b57141c513a42ed202d976269695a8b156855
+  src/franka_utils:
+    type: git
+    url: https://github.com/boschresearch/franka_utils.git
+    version: 0.1.1
+  src/libfranka:
+    type: git
+    url: https://github.com/boschresearch/libfranka.git
+    version: 59eda8d4f75d9a9f12fa8254630929a0f87e4efe
+  src/mul_franka:
+    type: git
+    url: https://github.com/mul-cps/mul_franka.git
+    version: e7b99498f87f010c549af9ba9656479ea4f35a86
+  src/pymoveit2:
+    type: git
+    url: https://github.com/AndrejOrsula/pymoveit2.git
+    version: c2dda9e97d96586fd6071b7d26d3d236d8c252d7
