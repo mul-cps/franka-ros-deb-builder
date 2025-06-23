@@ -8,19 +8,21 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ${{ matrix.runner }}
     strategy:
       fail-fast: false
       matrix:
         include:
           # - {ros: humble, deb: jammy}
-          - {ros: jazzy, deb: noble}
+          - {runner: ubuntu-24.04, arch: amd64, ros: jazzy, deb: noble}
+          - {runner: ubuntu-24.04-arm, arch: arm64, ros: jazzy, deb: noble}
 
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: ${{ matrix.ros }}
           DEB_DISTRO: ${{ matrix.deb }}
+          DEB_ARCH: ${{ matrix.arch }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SBUILD_CONF: "$enable_network = 1;"
