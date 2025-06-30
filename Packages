@@ -1,0 +1,504 @@
+Package: ros-jazzy-franka-bringup
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.20
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 69
+Depends: ros-jazzy-controller-manager, ros-jazzy-franka-description, ros-jazzy-franka-hardware, ros-jazzy-franka-robot-state-broadcaster, ros-jazzy-joint-state-broadcaster, ros-jazzy-joint-state-publisher, ros-jazzy-joint-trajectory-controller, ros-jazzy-robot-state-publisher, ros-jazzy-rviz2, ros-jazzy-xacro
+Filename: ./ros-jazzy-franka-bringup_0.1.0-58-gb68b571-2025.06.30.10.20_arm64.deb
+Size: 7658
+MD5sum: 494b94ca6317244f94bc7b6386cce8f4
+SHA1: 2ebc08ac5b2bca5a24136a627ceec32c4725a01a
+SHA256: 19826b993fcdc2186b26bd068576ed5c0d25103e7b101b42f087e227526137d8
+SHA512: 9c87bde42f0f18915e70f5ee138684cb293988abda83fa440c00d1840db9728722f1408251f0a721d95f048ae8f4e7568f2f18dff744959ae1e69deef0535b2b
+Description: Package with launch files and run-time configurations for using Franka Emika research robots with ros2_control
+
+Package: ros-jazzy-franka-description
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.09.47
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 10354
+Depends: ros-jazzy-joint-state-publisher-gui, ros-jazzy-moveit-resources-panda-moveit-config, ros-jazzy-rviz2, ros-jazzy-xacro
+Filename: ./ros-jazzy-franka-description_0.1.0-58-gb68b571-2025.06.30.09.47_arm64.deb
+Size: 3022792
+MD5sum: 6b8f8883a2ebb3ffa73276777e3321c8
+SHA1: a2767a74f35a2de670817e35263f128b2682326a
+SHA256: 85ca34e9b8ae9feacb51c14fc1867021571ca0a32d0fd4068591752788af90e7
+SHA512: d3021ff357d72a0ab90d568941158ee3a2e52bd1203ab373f6a172c2610e3025bcd70387b7daa81ba515e9b10ceff31ac7b72b049ad92ce2614e0c9b874e3e0e
+Description: franka_description contains URDF files and meshes of Franka Emika robots
+
+Package: ros-jazzy-franka-example-controllers-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.16
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-example-controllers
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 1551
+Depends: ros-jazzy-franka-example-controllers (= 0.1.0-58-gb68b571-2025.06.30.10.16)
+Filename: ./ros-jazzy-franka-example-controllers-dbgsym_0.1.0-58-gb68b571-2025.06.30.10.16_arm64.ddeb
+Size: 1470138
+MD5sum: 0bee2c66190249cc4a5fbd421a56d1d1
+SHA1: 7b6d23c39dc36891989e75e5d2faf40045b065d9
+SHA256: 795bf1546f349ca9954f6fb4d1231abe983561855f9327e8eb514fbd3e1c8725
+SHA512: 0aa5745b767abd9089c5bdbc46aeef4a7301fb783a27e45c04b0c45e024df41fa3c2bf72a4aec395f9efdafbfc2b7a1104ee5a398904dce0488d044c314e8e6f
+Description: debug symbols for ros-jazzy-franka-example-controllers
+Build-Ids: f2338cac960f1bfdbeb7ba117a0f2fed6a687c4a
+
+Package: ros-jazzy-franka-example-controllers
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.16
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 220
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-libfranka, ros-jazzy-controller-interface, ros-jazzy-franka-msgs, ros-jazzy-franka-semantic-components, ros-jazzy-generate-parameter-library, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle
+Filename: ./ros-jazzy-franka-example-controllers_0.1.0-58-gb68b571-2025.06.30.10.16_arm64.deb
+Size: 50086
+MD5sum: e121cfd01b4766d95e395a60ce42a07a
+SHA1: 6147f34e147eef2cf6d928a502b9818300f9d32b
+SHA256: abad3cb4c272c23f03685bf8f32e75fec958059f4de7d213b8821982ffb0aee5
+SHA512: 18cbcc29c00ea46a73b322266cd6607b749065534ded4dc2c6697ce817dcf28d7366cac1d61761fceaf11f09135bda1faf4993c56b2ef0c4c08b69f3a6e35153
+Description: franka_example_controllers provides example code for controlling Franka Emika research robots with ros2_control
+
+Package: ros-jazzy-franka-gripper-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-gripper
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 2620
+Depends: ros-jazzy-franka-gripper (= 0.1.0-58-gb68b571-2025.06.30.10.00)
+Filename: ./ros-jazzy-franka-gripper-dbgsym_0.1.0-58-gb68b571-2025.06.30.10.00_arm64.ddeb
+Size: 2205130
+MD5sum: ef0f6f27bdd94ef81b88abd1a4098b0e
+SHA1: bb8b4ad67c2a6bf6b5734aefc0f97af62d20fc72
+SHA256: f327a53c9e053501d2acb0b9fe5e55af7bee3e642a32c534eb16c32f261ada52
+SHA512: 77f1e419974e397992e976f7014727afe739b2a1fd6804b7db7872cdfaccbc05d4e5dd1bb71ed58d67252092f2d00228b76d2b68a7c31a79a65e602308f36b69
+Description: debug symbols for ros-jazzy-franka-gripper
+Build-Ids: cadcd641d05f57474a8d0af7fe19ab4e7fc6ff61 d1ecc4fb4bb8431bf19fcaa98d8da77b8b96fb96
+
+Package: ros-jazzy-franka-gripper
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.00
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 587
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-libfranka, ros-jazzy-control-msgs, ros-jazzy-franka-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs
+Filename: ./ros-jazzy-franka-gripper_0.1.0-58-gb68b571-2025.06.30.10.00_arm64.deb
+Size: 120874
+MD5sum: 01ed27e0352a820202ca4e4acc524f68
+SHA1: c9b7e0c74f15df851cacbdeee8d0730dc8468d5e
+SHA256: 3521142d9afa23db9f24716d03f28ddd4fafd1fadf4194a60f13b1f9c7a9ffff
+SHA512: 8a22e8497b06a25eb6922336e4c9a4cf5c7645dd8054e9272cec8a252c616608cc48954b86a5f750a4455105c5f513eee5e796ed834d09ce66935057d601e8e3
+Description: This package implements the franka gripper of type Franka Hand for the use in ROS2
+
+Package: ros-jazzy-franka-hardware-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-hardware
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 983
+Depends: ros-jazzy-franka-hardware (= 0.1.0-58-gb68b571-2025.06.30.10.03)
+Filename: ./ros-jazzy-franka-hardware-dbgsym_0.1.0-58-gb68b571-2025.06.30.10.03_arm64.ddeb
+Size: 913830
+MD5sum: 1d8ab86e123b9eeda6a9678d2a6cce42
+SHA1: ceaabd8c06086c87c41997887b93e427a621117f
+SHA256: 94be4f19c2c6cd58744acbfffb480160adf6e56d76763be923d9f8d7e96d9b2d
+SHA512: 36fc8aee9bd5d7b3968c6661fe868dc5768d1a5fa645f21ad47579bbb94ce68eb82e0c5525598210bfdca9ffe8e2cf457e301cedef01c84f6253793f8ad7cc31
+Description: debug symbols for ros-jazzy-franka-hardware
+Build-Ids: f99e4700578a935bd4046e1e42393f16096c2e98
+
+Package: ros-jazzy-franka-hardware
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.03
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 211
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-libfranka, ros-jazzy-franka-msgs, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp
+Filename: ./ros-jazzy-franka-hardware_0.1.0-58-gb68b571-2025.06.30.10.03_arm64.deb
+Size: 56216
+MD5sum: 94d9508bdcf0c12d940be3433979ea39
+SHA1: ecedd895e929e3da107bb8739bda6c1b00b53808
+SHA256: 13e7db3fc617b91184afe20f730922d1549f4f3bc48404143c1f665b45d89cbb
+SHA512: 9843cce16d660a76d031b8dce1e4821e5f808cf89cf094924eefc7b828d7e7498c45c704762c08e017339485c7575fa157218f6e9e325c1fe4909d2f4664d7b2
+Description: franka_hardware provides hardware interfaces for using Franka Emika research robots with ros2_control
+
+Package: ros-jazzy-franka-lock-unlock
+Architecture: arm64
+Version: 0-2025.06.30.09.48
+Priority: optional
+Section: misc
+Maintainer: jk-ethz <ethz@juliankeller.net>
+Installed-Size: 72
+Depends: ros-jazzy-launch-xml
+Filename: ./ros-jazzy-franka-lock-unlock_0-2025.06.30.09.48_arm64.deb
+Size: 13894
+MD5sum: 1aeac4591e38a4976f0350d83ca3d78f
+SHA1: 95870ab08053a4d15095b3172725a160994bffa8
+SHA256: 14b6c2a474e188e073ed0a7dc1255e8816dc527d20bee77b0f29c65c601a63bb
+SHA512: bff23e7dfac91dd43c88b740ed8952ce196c0f8f376343bd42fe91865b2f76cc126afb519419a7810bcbe4d5625a2e423efffc4ba0f0e49c3838c1efeedb49e8
+Homepage: https://github.com/jk-ethz/franka_lock_unlock
+Description: Lock or unlock the Franka Emika Panda joint brakes programmatically.
+
+Package: ros-jazzy-franka-moveit-config
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.13
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 94
+Depends: ros-jazzy-controller-manager, ros-jazzy-franka-description, ros-jazzy-franka-gripper, ros-jazzy-franka-hardware, ros-jazzy-joint-state-broadcaster, ros-jazzy-joint-state-publisher, ros-jazzy-joint-trajectory-controller, ros-jazzy-moveit-kinematics, ros-jazzy-moveit-planners-ompl, ros-jazzy-moveit-resources-panda-moveit-config, ros-jazzy-moveit-ros-move-group, ros-jazzy-moveit-ros-visualization, ros-jazzy-moveit-simple-controller-manager, ros-jazzy-robot-state-publisher, ros-jazzy-rviz2, ros-jazzy-xacro
+Filename: ./ros-jazzy-franka-moveit-config_0.1.0-58-gb68b571-2025.06.30.10.13_arm64.deb
+Size: 14234
+MD5sum: 37026db07ed1a89049e203c6c738eeac
+SHA1: 977a93fad187f475508b09aca298e7ca4659c393
+SHA256: afd9477a4b41eb6b30f0ba04eadca4078c92e472aa80ec6e24f7ab114d0ab8e4
+SHA512: f092c648aeceab7609247181b90cc0c07887943f5692c1d0793cc8fcf0b8be4f8e9df3f3cf4a1c2aba96bf1b944653f6a7344a451853188c2b144e991f9d0813
+Description: Contains Moveit2 configuration files for Franka Emika research robots
+
+Package: ros-jazzy-franka-msgs-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.09.49
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-msgs
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 2683
+Depends: ros-jazzy-franka-msgs (= 0.1.0-58-gb68b571-2025.06.30.09.49)
+Filename: ./ros-jazzy-franka-msgs-dbgsym_0.1.0-58-gb68b571-2025.06.30.09.49_arm64.ddeb
+Size: 1859094
+MD5sum: 12048515c8536e61fb7a476474bc5283
+SHA1: 89c6f5b42d6f16fbcab6c39e18860fa9b9443bd6
+SHA256: bea0aebc4d044b5a8c9ea92874b082102e9e3cce6d4d1b6ac6690a84709dbea3
+SHA512: 88d55916abebb586773e7e0f5fedd006df18a5bc107ed42e5b712b0b5818a6e0b84c034e16664a923108e3380a2fe46820dcd60fb41da9c2a4dd2781900568c9
+Description: debug symbols for ros-jazzy-franka-msgs
+Build-Ids: 0735e1199d328a36494f24a4942ff482baca9c83 0cb9ac1ed3893c7fe827fb489ff68734c85f81d9 1c7b030ed6a6afa1021401615dbd7d62f682f090 267b2b94f0ae39bfab79e74c6ffa1a90d5ce7ef2 39a91732616e023f629c5b47ad7d1c55313e525e 3fd385cd24e50a9556871bf6b1f3e2ae56ff54d2 520cbca5007f6d6a96c24d4790894aa06470ad4a 536d17fbc72d4580c5e963a460fa24b96f87e62b 720bee044acbb1c47621c304e6312896f3886032 824cd5932a6fbf42bf8a84c3db69eed36aee0e3f a2aaea8cdf7e7bb7639d5fae97cc533146a0c6f6
+
+Package: ros-jazzy-franka-msgs
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.09.49
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 5295
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-action-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-franka-msgs_0.1.0-58-gb68b571-2025.06.30.09.49_arm64.deb
+Size: 305532
+MD5sum: f179a30b1eccfbf180e0731a49886cab
+SHA1: 0edf1ba0d23b3216375c77c6710fcf70d970918e
+SHA256: 1a717df61e0842cff04e12304a6261f9e47afa461b4ba9f2cc0403aeb89f3161
+SHA512: 4da6684b306a50156103c7d0b2a1ae35cd62b41c2f94a021eea9af5c00771d8d19151cca17ea6622fd8e49c18c4d0c8518df06ce1970df82fc9df307493ee769
+Description: franka_msgs provides messages and actions specific to Franka Emika research robots
+
+Package: ros-jazzy-franka-robot-state-broadcaster-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-robot-state-broadcaster
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 1080
+Depends: ros-jazzy-franka-robot-state-broadcaster (= 0.1.0-58-gb68b571-2025.06.30.10.19)
+Filename: ./ros-jazzy-franka-robot-state-broadcaster-dbgsym_0.1.0-58-gb68b571-2025.06.30.10.19_arm64.ddeb
+Size: 975896
+MD5sum: 2c6b69baf0cba03a4c2a254bd745f613
+SHA1: cab24d7965519a6bb2c0d5b65aa7538bc8da8d04
+SHA256: a3943fb5ee133e618f7fe04b3392409d2718652c963c51c815b1bef48231a526
+SHA512: 4c0ce1eaf067b6635427380cdbffdd93a614d53b41ed3958b71ba83e65c35116e455c74cba0cda8f14ce71e1215ec2738cf33dab054cdc5571713141aa5e3ea0
+Description: debug symbols for ros-jazzy-franka-robot-state-broadcaster
+Build-Ids: 2ecf11720a5be086ffff4b29e28e0c364846ecbd
+
+Package: ros-jazzy-franka-robot-state-broadcaster
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.19
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 270
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-builtin-interfaces, ros-jazzy-control-msgs, ros-jazzy-controller-interface, ros-jazzy-franka-msgs, ros-jazzy-franka-semantic-components, ros-jazzy-generate-parameter-library, ros-jazzy-pluginlib, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rcutils, ros-jazzy-realtime-tools, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-franka-robot-state-broadcaster_0.1.0-58-gb68b571-2025.06.30.10.19_arm64.deb
+Size: 67896
+MD5sum: a2f34f8d66beb1a5b3d0a34ac67adc86
+SHA1: 533d9eb02899c55bdce179a653d438a168762655
+SHA256: ef1e13c23b254763d1da9ec0a898aeb7f38695d88d339e1bd1a2e78189564f84
+SHA512: 7eb1c5db3214130d7dd15ea0503c113834d1d4d43a945d258904d3f6935ac873b45be853dcd1a196d81f1f4f312e5c1710f40a1aa24a4b6be182fadd280783b0
+Description: Broadcaster to publish robot states
+
+Package: ros-jazzy-franka-semantic-components-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-semantic-components
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 474
+Depends: ros-jazzy-franka-semantic-components (= 0.1.0-58-gb68b571-2025.06.30.10.14)
+Filename: ./ros-jazzy-franka-semantic-components-dbgsym_0.1.0-58-gb68b571-2025.06.30.10.14_arm64.ddeb
+Size: 447934
+MD5sum: 56e1d91522b2439ae8581cc3d286a3e7
+SHA1: 38edfea461aec4436c8f70c26498ed23f6084fd1
+SHA256: 7ccfe84288a9d988c4a370d79c3804366bc50f93837ac59f074853dc0b11ce9f
+SHA512: 8ce4da502f652f33a85d5e1a8f7fc91222a5822cccd60cb193e4eb4eedb2dbb9e08e4f6d4d1eb204fd8b14e799a6c67be81ca00021c3277db4f1d05735cda505
+Description: debug symbols for ros-jazzy-franka-semantic-components
+Build-Ids: 658590c7555088f3be7b720024373d9a3a21424d
+
+Package: ros-jazzy-franka-semantic-components
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.10.14
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 136
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-libfranka, ros-jazzy-controller-interface, ros-jazzy-franka-hardware, ros-jazzy-franka-msgs, ros-jazzy-hardware-interface, ros-jazzy-rclcpp
+Filename: ./ros-jazzy-franka-semantic-components_0.1.0-58-gb68b571-2025.06.30.10.14_arm64.deb
+Size: 21766
+MD5sum: 6e08c6f711281e6b213a27025fbf162d
+SHA1: 66a2983479ee963420bedca43bb061bdf96074ff
+SHA256: 6d5a74fbba45e2357e917b066acaaa49757e2bd919115497c7f19779d1e15732
+SHA512: dc6a8d7262265dae0817d517e52fe9bfb4412383642a6fcc9a4ad5bec1ea9b4d8a1a70e20f7d7bd08ac6fc6189a830d0d40634f0b0452e23d98dbf7aab0a989a
+Description: franka_semantic_components provides semantic components for using Franka Emika research robots with ros2_control
+
+Package: ros-jazzy-franka-utils-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.1.1-2025.06.30.10.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-franka-utils
+Maintainer: Christian Rauch <Christian.Rauch@de.bosch.com>
+Installed-Size: 1056
+Depends: ros-jazzy-franka-utils (= 0.1.1-2025.06.30.10.06)
+Filename: ./ros-jazzy-franka-utils-dbgsym_0.1.1-2025.06.30.10.06_arm64.ddeb
+Size: 1035248
+MD5sum: f7e66615f960d2b455598837b3167a43
+SHA1: 5a2125b4d3f547091e32927e5f91deb2dc525892
+SHA256: 2e08c961d9f558a34b7a77aed2051815aa5051ebf1fde0bc5e4272f64e6865bf
+SHA512: 56fd0e81e48c6592edc6b80a540ebbce37460e2ec3213d7ccf62f8c9bdfa00d87c69105cce65f2c4ec276ff06c598b477da89f004c4ac957b16106ed90097418
+Description: debug symbols for ros-jazzy-franka-utils
+Build-Ids: 56b04d5adbc993c96a26eb8844a326cfd9a2c218 8277553f0af8722707e3624f39ecd4e87bc41e92
+
+Package: ros-jazzy-franka-utils
+Architecture: arm64
+Version: 0.1.1-2025.06.30.10.06
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Christian.Rauch@de.bosch.com>
+Installed-Size: 146
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), liburdfdom-model4.0 (>= 4.0.0), ros-jazzy-libfranka, libeigen3-dev, liburdfdom-dev, liburdfdom-headers-dev
+Filename: ./ros-jazzy-franka-utils_0.1.1-2025.06.30.10.06_arm64.deb
+Size: 15714
+MD5sum: 0560f7b92a5ad3592b9f82675481d01f
+SHA1: b3aa360fd281b44e49ef893bea9528bca1dd90ca
+SHA256: b453868d798a3a3bd877614f1d233d5105dbcfea42454574086c019e9d4b5b2f
+SHA512: 29e16c2813b03882b9e04f8ca1ef6c01567ef2cf66fcd700b7f8b6e441f5f7266640e8a6b8535e1546de96c3fc4f6440ef00fe8ce267587fe8af93408933b991
+Description: utils for Franka robot
+
+Package: ros-jazzy-integration-launch-testing
+Architecture: arm64
+Version: 0.1.0-58-gb68b571-2025.06.30.09.50
+Priority: optional
+Section: misc
+Maintainer: Franka Emika GmbH <support@franka.de>
+Installed-Size: 65
+Filename: ./ros-jazzy-integration-launch-testing_0.1.0-58-gb68b571-2025.06.30.09.50_arm64.deb
+Size: 9018
+MD5sum: 5ccaebe5751c48bb4716a1c0b5b09753
+SHA1: b345e9afeb8fe76b1e89599047e56cb6ee3bd661
+SHA256: 7d7ed8715281c75037ece91805a71e19f9e70187f0c941629925c6eee70a4f12
+SHA512: 25a988f7f645d1eb82e2f6e820320c2b114b03a88a79aa668f65eb75423e2259af1dc99295b89a410e8a38cd22eee77f56dc858d985609eb8aa1b237590a23a7
+Description: Functional integration tests for franka controllers
+
+Package: ros-jazzy-libfranka-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 0.9.2-2-g59eda8d-2025.06.30.09.51
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-libfranka
+Maintainer: Franka Robotics GmbH <support@franka.de>
+Installed-Size: 7837
+Depends: ros-jazzy-libfranka (= 0.9.2-2-g59eda8d-2025.06.30.09.51)
+Filename: ./ros-jazzy-libfranka-dbgsym_0.9.2-2-g59eda8d-2025.06.30.09.51_arm64.ddeb
+Size: 7408512
+MD5sum: 1d458aecc77e933aab1cb31b0e83e88f
+SHA1: a4a72c036f6244a5532dbc76686a821e2d929dde
+SHA256: 85d3039ceff35e2bec2908572b3a40e87945d977ddd8516fd7077780a7fabf94
+SHA512: 768f7412f5094f961d5fd05bf57131a05c9571a6efd370c58f09f2ab90b30c39ba0a67ed71fa2df74a94d99d21cc9b39fc69ab459c5687e6eb4708486f88770f
+Description: debug symbols for ros-jazzy-libfranka
+Build-Ids: 04b8b6d8c90d8d326e4c85f485e0978796a2b9a2 08b0e71c5b0ccbde0339d99990a2c36dadf5b34e 1319c4bfc9dbf65268738d553b02b3bbc85bad13 16f7cce00b1d230ffc6961bfcc9339209db7795f 2103110840211aa37c1955e29959ac6025ffb08a 25b89de949158ee45f6c0f8a7bf6b1010a67b081 3301c301af962efea28464dc9c103538bb72940c 51fab05b34cfb85910e5ed8173d1df44e4af3f5a 6e32e71bf352e5fb15c7f19b84c06b692e960032 760c9f78419f6cdb716aef3c23e47631dde96d43 7637e2dc4bf01b7269c37750a27e7f13c8372fc3 914929b08be60b4e304aaf72e85369ad8bf7367d aab11a99ccacc7adf6a134d70784c6935fed2c84 b5b04b553e86ae0e228f944ad90b9219c91051ab baf63cee64a5c93fef590bb6af8797701cc14041 d35c7555a52690e5d0abb0d6db382da5c63cf92e fd2cc26d2dd93947e15c7864b456ee2a772bc99f
+
+Package: ros-jazzy-libfranka
+Architecture: arm64
+Version: 0.9.2-2-g59eda8d-2025.06.30.09.51
+Priority: optional
+Section: misc
+Maintainer: Franka Robotics GmbH <support@franka.de>
+Installed-Size: 1481
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpocofoundation80t64 (>= 1.11.0), libpoconet80t64 (>= 1.11.0), libstdc++6 (>= 13.1), libpoco-dev
+Filename: ./ros-jazzy-libfranka_0.9.2-2-g59eda8d-2025.06.30.09.51_arm64.deb
+Size: 148766
+MD5sum: 48a5e9ac7cd930394260dea364cfeba2
+SHA1: 1d765288a51a77f985c7fd2b36cfecbee5291347
+SHA256: 3af63a2fc334e3a6b05816cbdf9ab37e6552caafa74c3d57b00c03b6c1cd22ea
+SHA512: 60846f75bfa6f89a1842a344f09e33b040d7746cf73e3116e80183a32a4fd99b221ed9c6b5b881f6ac2dbdedb4b9636d866f528199ed64f70dc61aa5927fd994
+Homepage: http://wiki.ros.org/libfranka
+Description: libfranka is a C++ library for Franka Robotics research robots
+
+Package: ros-jazzy-mul-franka-description
+Architecture: arm64
+Version: 0-2025.06.30.10.07
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 1361
+Depends: ros-jazzy-franka-description, ros-jazzy-orbbec-description, ros-jazzy-realsense2-description
+Filename: ./ros-jazzy-mul-franka-description_0-2025.06.30.10.07_arm64.deb
+Size: 313314
+MD5sum: 8dad45f8084bacc4913a963b12e468e6
+SHA1: 055f1451ef6d1e14c70800ffcf1f10c38b373553
+SHA256: ea9e6e7c55c00fa3589c075bef44bb4b7b17afc795e31b1dbd8f22af590a07ee
+SHA512: dd368965a17a1016e2881186ab20b964835a5db8af4d2ccf9d70c0b32e23247e49cab017b21bfc3db9f9338b9c642196eb34b92fd5619af3580e93e36aae19f2
+Description: robot description files for the MUL Franka setup
+
+Package: ros-jazzy-mul-franka-launch
+Architecture: arm64
+Version: 0-2025.06.30.10.21
+Priority: optional
+Section: misc
+Maintainer: Christian Rauch <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 87
+Depends: ros-jazzy-control-msgs, ros-jazzy-controller-manager, ros-jazzy-depth-image-proc, ros-jazzy-franka-gripper, ros-jazzy-franka-moveit-config, ros-jazzy-franka-robot-state-broadcaster, ros-jazzy-image-transport-plugins, ros-jazzy-joint-state-broadcaster, ros-jazzy-joint-state-publisher, ros-jazzy-joint-trajectory-controller, ros-jazzy-launch-ros, ros-jazzy-moveit-resources-panda-moveit-config, ros-jazzy-moveit-ros-move-group, ros-jazzy-moveit-simple-controller-manager, ros-jazzy-mul-franka-description, ros-jazzy-orbbec-camera, ros-jazzy-realsense2-camera, ros-jazzy-robot-state-publisher, ros-jazzy-rosbag2-transport
+Filename: ./ros-jazzy-mul-franka-launch_0-2025.06.30.10.21_arm64.deb
+Size: 12666
+MD5sum: 2e838d83d57107a300c4e1e5ca499f14
+SHA1: ba7dab494b358459dfc32d2895a07e60cb75170f
+SHA256: edbdefbacd24318a977a8bc82bc0ab7ccea4e8d702cf0b5177b872187b77effc
+SHA512: cde4a94e37519274614a12c1f08f5f1fea679fccb783cbab955e42cd2098399933f401570b5de787f7d0bb7570d53f96cf2d7d9e0c52c14d477e2cb50bd83be1
+Description: launch files for the MUL Franka
+
+Package: ros-jazzy-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 1.5.8-155-g863fb00-2025.06.30.10.09
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-orbbec-camera
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 27517
+Depends: ros-jazzy-orbbec-camera (= 1.5.8-155-g863fb00-2025.06.30.10.09)
+Filename: ./ros-jazzy-orbbec-camera-dbgsym_1.5.8-155-g863fb00-2025.06.30.10.09_arm64.ddeb
+Size: 23368186
+MD5sum: 4f6010063faccec6133fe1e5041a7161
+SHA1: f0dbfcaa77f3a4c57e10ef44f5370a00e3e7be33
+SHA256: 86580ae54bfbbd10540bd9b2d259f433cc3f4f414937f7e731dea37f1e392595
+SHA512: 6079a0fcd3afa98f3b3b95af1cbf3f3c7670f45a3de8f56708ec341b0cfc7d4b95db55a9390aa2e0e2bc0ab29669a6571ce1f5e82977a826dc26391b51f38df1
+Description: debug symbols for ros-jazzy-orbbec-camera
+Build-Ids: 2b07480ee62756995fb29b5f47b6350621a4c6d3 2c9c4820f1f369051b5f2521be620a0f528dca00 3e160290c4b8c3d1fe83ec92f8778895c3fbab4e 7fe3cedf49e7547532fd094e5dd14a5d77333f76 a890dab1844c665c85c9d81d14d00a865860b022 ba1d1d155a233792a712dd8170a8dd8cbd8ec536 c65187fdc68895c13b52ab8b95f820e76b69c803 e9106e7c94bfc7ce6b967653007dfd10d8070dad fae67dbf812b66d60e853d6881fc860380e67cc4
+
+Package: ros-jazzy-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: arm64
+Version: 1.5.8-155-g863fb00-2025.06.30.09.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-orbbec-camera-msgs
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 3123
+Depends: ros-jazzy-orbbec-camera-msgs (= 1.5.8-155-g863fb00-2025.06.30.09.56)
+Filename: ./ros-jazzy-orbbec-camera-msgs-dbgsym_1.5.8-155-g863fb00-2025.06.30.09.56_arm64.ddeb
+Size: 2387036
+MD5sum: 1abaf162e2928a2f5ca601016c6e58dd
+SHA1: 3f352f383a5ff53f98b28a3009ea58ce44f59236
+SHA256: 1cab286673b7127fcb86b113ce882307403d9bc695aa6cee6c18a4beb61d51ad
+SHA512: 862fcb3f27baa1635e99a499048981ef8d174f285917b944be7b3acb24833fda96ddb574ee9f40d81a58317f3b9662959fef09061c23c364aed6a9ce8162a830
+Description: debug symbols for ros-jazzy-orbbec-camera-msgs
+Build-Ids: 038c092e95c4569890c236790c8a6276472789af 0be89e36a185ebe3e26a10918eaaf478776fa626 1438f60c9133824c60aecb627251a0822e3d90ac 1f683740c2058c59eb47349040d18b5a2a92c643 4796687734fc866b93dd384378bc88e98337ef54 4b6019a7c0f8e0f5f7d05b1e95c2e9f66e65fddb 8d9ccac52be9997f827bb13567e141fd9cff78dc 94097f91f6095af57222571acf007a8c62086a88 b25a50c535fc4b7ec637b72fa1a2e5d0c4f104c1 b920332261ef2dcc87bc6276c9f3fefcd436f892 f8afda064ecf6ea5f8418e9b296ac10ebb89e8fa
+
+Package: ros-jazzy-orbbec-camera-msgs
+Architecture: arm64
+Version: 1.5.8-155-g863fb00-2025.06.30.09.56
+Priority: optional
+Section: misc
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 4241
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-orbbec-camera-msgs_1.5.8-155-g863fb00-2025.06.30.09.56_arm64.deb
+Size: 250378
+MD5sum: e6cb4807509672ff4e1cee5b84d47713
+SHA1: cb408035e1cb7e93d32dd7126874f4ecc84e2c80
+SHA256: 6c441d6c69d87b98e3243f774fdabf8f1d9ce1162083b59fe94be48bb41500c5
+SHA512: 5762f877e6b659e8323de9c14dd2519f317ceaddca5b666919120cf24da1302a50ad6575013e642ad124dc288a1467171d5fc06123573a7bede01b29d331f4fc
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-jazzy-orbbec-camera
+Architecture: arm64
+Version: 1.5.8-155-g863fb00-2025.06.30.10.09
+Priority: optional
+Section: misc
+Maintainer: Joe Dong <mocun@orbbec.com>
+Installed-Size: 18116
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.5), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libdw-dev, libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, nlohmann-json3-dev, ros-jazzy-ament-index-cpp, ros-jazzy-ament-lint-auto, ros-jazzy-ament-lint-common, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-camera-info-manager, ros-jazzy-cv-bridge, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-image-publisher, ros-jazzy-image-transport, ros-jazzy-orbbec-camera-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-statistics-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-tf2-sensor-msgs
+Filename: ./ros-jazzy-orbbec-camera_1.5.8-155-g863fb00-2025.06.30.10.09_arm64.deb
+Size: 4391998
+MD5sum: 33d3834da726739b8487b9dd9ee69744
+SHA1: 5578657e257d2c8c5d14d88afd56ae419cb9cbaa
+SHA256: 11e7445f5e4cf772362130540ddba8fbc61fa231c576741bf9571911f2751c63
+SHA512: 44c993039889d2e3a3fe719e3d27c14fd4178b213fbfab7ece0198f6561466d911205a69768fed9d70ffab35366c252b0bee360beccc830672b73fb3706b7999
+Description: Orbbec Camera package
+
+Package: ros-jazzy-orbbec-description
+Architecture: arm64
+Version: 1.5.8-155-g863fb00-2025.06.30.09.58
+Priority: optional
+Section: misc
+Maintainer: toosimple <jian.dong@pobox.com>
+Installed-Size: 39274
+Filename: ./ros-jazzy-orbbec-description_1.5.8-155-g863fb00-2025.06.30.09.58_arm64.deb
+Size: 2999596
+MD5sum: 9e4ade01ab0267eab6f83c9d32e7f51d
+SHA1: b7c144d2c6dfe811bef4d802d5b712f6329bb0de
+SHA256: 6c45277b8c2488383a8a842d27b7f78beb0d636f523c5541364b1616e5ddab05
+SHA512: 519b710897575f5ba7d311932d0803feaffb68a80ef42974b43b290f09cc3e3ad54ea21082f15165b9c5b77d1aa24ca07544ffdf6d8be2a3e4de1bc418fc0891
+Description: TODO: Package description
+
+Package: ros-jazzy-pymoveit2
+Architecture: arm64
+Version: 4.1.1-4-gc2dda9e-2025.06.30.09.59
+Priority: optional
+Section: misc
+Maintainer: Andrej Orsula <orsula.andrej@gmail.com>
+Installed-Size: 238
+Depends: ros-jazzy-action-msgs, ros-jazzy-control-msgs, ros-jazzy-geometry-msgs, ros-jazzy-moveit-msgs, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-std-srvs, ros-jazzy-trajectory-msgs
+Filename: ./ros-jazzy-pymoveit2_4.1.1-4-gc2dda9e-2025.06.30.09.59_arm64.deb
+Size: 27006
+MD5sum: 491c7abf799afbe6dd86b0a1ebf7ddae
+SHA1: 9ef760d44f3c24c15e66ffab88f1e5f6f951e42d
+SHA256: efcad632d0915fc322abb7fd896de83dc4bdeb88aec3e645a0d7b35bc6f8634a
+SHA512: e9423e50df3ea7833edbbba84159c8899f43a1992d22d861636a0c017a881bd53a7ca6ef29d453673a786018f99c1d621b218f48df5c8b68c8b9012750d5ca04
+Description: Basic Python interface for MoveIt 2 built on top of ROS 2 actions and services
+
