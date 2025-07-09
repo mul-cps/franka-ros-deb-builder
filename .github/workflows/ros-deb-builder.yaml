@@ -14,15 +14,17 @@ jobs:
       matrix:
         include:
           # - {ros: humble, deb: jammy}
-          - {runner: ubuntu-24.04, arch: amd64, ros: jazzy, deb: noble}
-          - {runner: ubuntu-24.04-arm, arch: arm64, ros: jazzy, deb: noble}
+          - {ros: jazzy, deb: noble}
+        runner: [ubuntu-24.04, ubuntu-24.04-arm]
 
     steps:
+      - run: dpkg-architecture >> "$GITHUB_ENV"
+
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: ${{ matrix.ros }}
           DEB_DISTRO: ${{ matrix.deb }}
-          DEB_ARCH: ${{ matrix.arch }}
+          DEB_ARCH: ${{ env.DEB_HOST_ARCH }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SBUILD_CONF: "$enable_network = 1;"
