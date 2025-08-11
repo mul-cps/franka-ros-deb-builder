@@ -29,5 +29,5 @@ repositories:
 
   src/franka_lock_unlock:
     type: git
-    url: https://github.com/christian-rauch/franka_lock_unlock.git
+    url: https://github.com/mul-cps/franka_lock_unlock.git
     version: feature/franka_shutdown
