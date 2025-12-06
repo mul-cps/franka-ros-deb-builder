@@ -1,0 +1,45 @@
+franka_description:
+  ubuntu:
+  - ros-jazzy-franka-description
+franka_lock_unlock:
+  ubuntu:
+  - ros-jazzy-franka-lock-unlock
+franka_msgs:
+  ubuntu:
+  - ros-jazzy-franka-msgs
+integration_launch_testing:
+  ubuntu:
+  - ros-jazzy-integration-launch-testing
+libfranka:
+  ubuntu:
+  - ros-jazzy-libfranka
+franka_gripper:
+  ubuntu:
+  - ros-jazzy-franka-gripper
+franka_hardware:
+  ubuntu:
+  - ros-jazzy-franka-hardware
+franka_utils:
+  ubuntu:
+  - ros-jazzy-franka-utils
+mul_franka_description:
+  ubuntu:
+  - ros-jazzy-mul-franka-description
+franka_moveit_config:
+  ubuntu:
+  - ros-jazzy-franka-moveit-config
+franka_semantic_components:
+  ubuntu:
+  - ros-jazzy-franka-semantic-components
+franka_example_controllers:
+  ubuntu:
+  - ros-jazzy-franka-example-controllers
+franka_robot_state_broadcaster:
+  ubuntu:
+  - ros-jazzy-franka-robot-state-broadcaster
+franka_bringup:
+  ubuntu:
+  - ros-jazzy-franka-bringup
+mul_franka_launch:
+  ubuntu:
+  - ros-jazzy-mul-franka-launch
