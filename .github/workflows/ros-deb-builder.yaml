@@ -17,16 +17,13 @@ jobs:
         include:
           # - {ros: humble, deb: jammy}
           - {ros: jazzy, deb: noble}
-        runner: [ubuntu-24.04, ubuntu-24.04-arm]
+        runner: [ubuntu-24.04]
 
     steps:
-      - run: dpkg-architecture >> "$GITHUB_ENV"
-
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: ${{ matrix.ros }}
           DEB_DISTRO: ${{ matrix.deb }}
-          DEB_ARCH: ${{ env.DEB_HOST_ARCH }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SBUILD_CONF: "$enable_network = 1;"
