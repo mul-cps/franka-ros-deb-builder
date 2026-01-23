@@ -17,7 +17,7 @@ jobs:
         include:
           # - {ros: humble, deb: jammy}
           - {ros: jazzy, deb: noble}
-        runner: [ubuntu-24.04, ubuntu-24.04-arm]
+        runner: [ubuntu-24.04]
 
     steps:
       - run: dpkg-architecture >> "$GITHUB_ENV"
