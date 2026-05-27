@@ -1,0 +1,5 @@
+repositories:
+  src/OrbbecSDK_ROS2:
+    type: git
+    url: https://github.com/christian-rauch/OrbbecSDK_ROS2.git
+    version: b4026d366593a69d2e7bf730a126908e0acf1038

@@ -1,0 +1,87 @@
+Package: ros-lyrical-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.05.27.14.39
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-orbbec-camera
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 68549
+Depends: ros-lyrical-orbbec-camera (= 0-2026.05.27.14.39)
+Filename: ./ros-lyrical-orbbec-camera-dbgsym_0-2026.05.27.14.39_amd64.ddeb
+Size: 57231280
+MD5sum: 39c5016860ca551299b0897f5c467266
+SHA1: dbe8b4042fa65e90d206b798d740a1ac756d0e7e
+SHA256: 7e9ea8383f692b05bbcde764f4ed5556502f18dacfd6ed0fe38741239ce98839
+SHA512: 2526796bded9e5d11a4a1d8c0f425d62743468dfedb2593faf735d7c982af1ec8d7f4664d4bd188d8fe8033f5a67ea733150b5dd9c4f55e1981a8b56fd57f8f7
+Description: debug symbols for ros-lyrical-orbbec-camera
+Build-Ids: 23b988601fda30d2709fd01d335394a00a40f453 2856d7d5667408c8b1841908cff7750a66333f88 2b28aaa622e86351903c6108e37cf5e87fc24e8d 35546bf584b67f6d56df2fffdbc00940daa64ed6 3a7bf9623f0fa1d8df166a7913c2c6440cb2cb15 42d234eb387f6e43bbabb4d5ad8ae71c4e5fc5b4 45042c162640c4954fba8d2bb82f6a37a716ad83 5282ea7fceb4c3755605bec482f93e6140ecea16 617c01b69400720604dcb4083bc850c4c9155140 62c4650d8237c0e3d820a0afadc1fd79c0739849 6351f8dfc33491eaf4de1add3d4e382e0da68714 708153c901aa7d61c6d855f4c037669b1f847584 8147a34a3d712577faaf5c8652bd1a5eec7f0fda 8439ef03d108a8c4482d4d9f6836373614262a59 8c9a2fbfb77216b69b926a5e843db4a8a66728bd 8f4eddbf897c483516ee71a36655cbd3d8ba83fb 986b68316efb837a7b9a01f2aea2ff6833d5a42a 99c8cb5d6d9622f86d4dd13b73a132d477d5a318 a51421884a3cf473c66b7d1753c16dab75dd88d4 aa27b83fc7d78c5f304faf3f6249bb7aa46f4d94 b10b2f2673e0d6e7505a3410c6290be214504ddf b8a35754f19a73cac2106772ce0194a179e621aa c542e1156cd4056a9bfa7533cd1ff4c9b8f902bc d3d27511f053aa2e29c38cc139306eb90d630cca
+
+Package: ros-lyrical-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2026.05.27.14.36
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-orbbec-camera-msgs
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 5244
+Depends: ros-lyrical-orbbec-camera-msgs (= 0-2026.05.27.14.36)
+Filename: ./ros-lyrical-orbbec-camera-msgs-dbgsym_0-2026.05.27.14.36_amd64.ddeb
+Size: 4023050
+MD5sum: 60078f94ca8e8d53c4a58c4a687b6ec5
+SHA1: de5fd9d8e1d024275c4f538173736211d1eaf860
+SHA256: f84e606298aa3b8709bbd706a8b7ac72761aea332c416d175e2e12e10fc160e5
+SHA512: a6b9cd95f146d69509dd4f48f7efb2367937919e0fb616733f73b4aeb46fd438feba326447f4c6bc4c87cdc6189b35d6164c546b9d5fb3ef006418e45ad624a4
+Description: debug symbols for ros-lyrical-orbbec-camera-msgs
+Build-Ids: 0f1624f470aac2c3daff40b1dc7f66990c949b89 182139bac1d16df2aa8aad39f0c983d1e12392f2 3c00a6fe0fa6ae363bf17a5c9e2955b469861f4a 505dd0087da1a11afd42a86c7cccc0f9374068a9 5ddc439602b0a81a03df371f7d3f2bccb9878a2f 65fab531fbe0adce23f2f4762d9563eaa81b4dc3 69f3a6c9910d158b47a26575831d38419343922d 9babc49ea1093f905739fdbb899c8b533df32a9a 9f5bdd6361d1f71142cdb1370037347307eb7c2d b631cb67f4385824fd48877b9bec4d78d90a7ac6 bf25b94c737239acbe08a8edc269e5ad99bfb05c
+
+Package: ros-lyrical-orbbec-camera-msgs
+Architecture: amd64
+Version: 0-2026.05.27.14.36
+Priority: optional
+Section: misc
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 6546
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.14 (>= 3.14.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs
+Filename: ./ros-lyrical-orbbec-camera-msgs_0-2026.05.27.14.36_amd64.deb
+Size: 407352
+MD5sum: 7fc1011d407d54768ad2f7938d12c342
+SHA1: ebd4ebfe0c79fa2c656217af85e1facf40ff7073
+SHA256: ab9a6c858b4d2e0209b65ea4e94c6652f04758f92892b122a89707f7fd5b160e
+SHA512: c500883f14f46b59c88aee9dc2f50b10d41e012ff3116561f74f62e15ad07a8988f6bf21bdde41e491630d1269208e10406a21e5588fd1821ec7bd9ff26204be
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-lyrical-orbbec-camera
+Architecture: amd64
+Version: 0-2026.05.27.14.39
+Priority: optional
+Section: misc
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 37847
+Depends: libc6 (>= 2.43), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.2), libopencv-calib3d410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, libssl-dev, nlohmann-json3-dev, ros-lyrical-ament-index-cpp, ros-lyrical-ament-lint-auto, ros-lyrical-ament-lint-common, ros-lyrical-backward-ros, ros-lyrical-builtin-interfaces, ros-lyrical-camera-info-manager, ros-lyrical-cv-bridge, ros-lyrical-diagnostic-msgs, ros-lyrical-diagnostic-updater, ros-lyrical-image-publisher, ros-lyrical-image-transport, ros-lyrical-orbbec-camera-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-statistics-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-tf2-msgs, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs
+Filename: ./ros-lyrical-orbbec-camera_0-2026.05.27.14.39_amd64.deb
+Size: 10052328
+MD5sum: f674858cf3eb1cde1b89987e781429dc
+SHA1: 8e73a5d369751b8d31109fd36546af7dacddb690
+SHA256: 6ffcea7a422a54060a680c06d8c068a4bf2d93460740898aa78f98c960184e08
+SHA512: f7ab02e392e9d9d0598b44ecd84817b2caffe85be2bb20c9f7b4ad9295985b10f7f501e47c1a94196e285679e8f18e275d3cba81bb3bab8188a023da0a281b84
+Description: Orbbec Camera package
+
+Package: ros-lyrical-orbbec-description
+Architecture: amd64
+Version: 0-2026.05.27.14.38
+Priority: optional
+Section: misc
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 88099
+Filename: ./ros-lyrical-orbbec-description_0-2026.05.27.14.38_amd64.deb
+Size: 14311862
+MD5sum: df87414ad6f3bc1f64a36645cd61d54a
+SHA1: 5f699d15e64b3dfe49f425bf39d08be95df94171
+SHA256: ccbb85600eb99dcac732761d77543c16e633d1758080134fbc00e41b619a7f8e
+SHA512: 125cf21a60b51a2df786e6457003fc0b0e3ec1186d2c53290e1b202e77054564a1e5eaa0552676205972a72d2496b5a6e6db8a0f8b0fbfb9e6061738d580ef77
+Description: TODO: Package description
+
