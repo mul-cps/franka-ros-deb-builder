@@ -10,14 +10,13 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.runner }}
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         include:
           # - {ros: humble, deb: jammy}
           - {ros: jazzy, deb: noble}
-        runner: [ubuntu-24.04]
 
     steps:
       - run: dpkg-architecture >> "$GITHUB_ENV"
