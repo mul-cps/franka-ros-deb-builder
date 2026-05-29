@@ -1,0 +1,21 @@
+repositories:
+  src/franka_lock_unlock:
+    type: git
+    url: https://github.com/jk-ethz/franka_lock_unlock.git
+    version: 986a294e5eb359c36cc8dda26e313dd91b18c2bd
+  src/franka_ros2:
+    type: git
+    url: https://github.com/mul-cps/franka_ros2.git
+    version: b638ed27b0d83dd670ea8cc330555113cd7ca178
+  src/franka_utils:
+    type: git
+    url: https://github.com/boschresearch/franka_utils.git
+    version: 0.1.1
+  src/libfranka:
+    type: git
+    url: https://github.com/mul-cps/libfranka.git
+    version: 65e8b86e7f1e0824c715e3b6cf6abf02f74222ae
+  src/mul_franka:
+    type: git
+    url: https://github.com/mul-cps/mul_franka.git
+    version: 6a6073332279fbf5f291840ac23d177bb5869489
