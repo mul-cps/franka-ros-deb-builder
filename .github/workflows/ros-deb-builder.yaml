@@ -17,6 +17,7 @@ jobs:
         include:
           # - {ros: humble, deb: jammy}
           - {ros: jazzy, deb: noble}
+          - {ros: lyrical, deb: resolute}
 
     steps:
       - run: dpkg-architecture >> "$GITHUB_ENV"
