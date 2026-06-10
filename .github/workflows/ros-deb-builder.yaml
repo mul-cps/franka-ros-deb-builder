@@ -27,3 +27,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SBUILD_CONF: "$enable_network = 1;"
+          PACKAGES_BRANCH: ${{ matrix.deb }}-${{ matrix.ros }}-${{ github.head_ref || github.ref_name }}
