@@ -21,3 +21,8 @@ repositories:
     type: git
     url: https://github.com/jk-ethz/franka_lock_unlock.git
     version: v4.2.1-1
+
+  src/OrbbecSDK_ROS2:
+    type: git
+    url: https://github.com/orbbec/OrbbecSDK_ROS2.git
+    version: v2.9.3
