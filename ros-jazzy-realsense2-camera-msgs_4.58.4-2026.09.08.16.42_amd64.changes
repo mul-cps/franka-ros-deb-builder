@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sun, 30 Aug 2026 00:00:00 -0000
+Source: ros-jazzy-realsense2-camera-msgs
+Binary: ros-jazzy-realsense2-camera-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.58.4-2026.09.08.16.42
+Distribution: noble
+Urgency: high
+Maintainer: LibRealSense ROS Team <rsswsdk@realsensecloud.onmicrosoft.com>
+Changed-By: LibRealSense ROS Team <rsswsdk@realsensecloud.onmicrosoft.com>
+Description:
+ ros-jazzy-realsense2-camera-msgs - RealSense camera_msgs package containing realsense camera message
+Changes:
+ ros-jazzy-realsense2-camera-msgs (4.58.4-2026.09.08.16.42) noble; urgency=high
+ .
+   * Update changelogs for 4.58.4
+   * Freeze 4.58.4: bump version (#3548 <https://github.com/realsenseai/realsense-ros/issues/3548>)
+   * Update version to 4.58.4
+   * Merge branch 'ros2-development' into ileniap/add/use-mesh/d455
+   * Merge branch 'ros2-development' into patch-1
+   * push ros2-master to ros2-development (#3543 <https://github.com/realsenseai/realsense-ros/issues/3543>)
+   * reset dev versions
+   * Merge remote-tracking branch 'origin/ros2-master' into ros2-development
+   * Merge branch 'ros2-master' into patch-1
+   * Contributors: Ilenia, Nir Azkiel, Nir-Az, ileniap
+   * Freeze 4.58.4: bump version (#3548 <https://github.com/realsenseai/realsense-ros/issues/3548>)
+   * Update version to 4.58.4
+   * Merge branch 'ros2-development' into ileniap/add/use-mesh/d455
+   * Merge branch 'ros2-development' into patch-1
+   * push ros2-master to ros2-development (#3543 <https://github.com/realsenseai/realsense-ros/issues/3543>)
+   * reset dev versions
+   * Merge remote-tracking branch 'origin/ros2-master' into ros2-development
+   * Merge branch 'ros2-master' into patch-1
+   * Contributors: Ilenia, Nir Azkiel, ileniap
+Checksums-Sha1:
+ ab7af031bc9f31c2a474f688ea94b8ead279442a 3479192 ros-jazzy-realsense2-camera-msgs-dbgsym_4.58.4-2026.09.08.16.42_amd64.ddeb
+ 5a00fa8e6ebc2e065ea4176ca83332529cb0cfa1 15645 ros-jazzy-realsense2-camera-msgs_4.58.4-2026.09.08.16.42_amd64.buildinfo
+ e064ebf6e287429450a17ba6288d8cc322243ff0 408758 ros-jazzy-realsense2-camera-msgs_4.58.4-2026.09.08.16.42_amd64.deb
+Checksums-Sha256:
+ ea43e8814f61812630ee40eaf5d3e1027c6c2ddb7504a273dbc5e7fee6c6e799 3479192 ros-jazzy-realsense2-camera-msgs-dbgsym_4.58.4-2026.09.08.16.42_amd64.ddeb
+ 7869bafcb8dbbad28832a44e49183553de8888329d40a85a7443e8a2e953ec9d 15645 ros-jazzy-realsense2-camera-msgs_4.58.4-2026.09.08.16.42_amd64.buildinfo
+ 90d08665b00a00a2f0cdb900fa1e9cd99b6d1227e656e8bba402eec3ed52cfc6 408758 ros-jazzy-realsense2-camera-msgs_4.58.4-2026.09.08.16.42_amd64.deb
+Files:
+ 8c0214081e52bd8da3543e3080ec953b 3479192 debug optional ros-jazzy-realsense2-camera-msgs-dbgsym_4.58.4-2026.09.08.16.42_amd64.ddeb
+ 60412287f02920eb624f2c0c2cf2b73b 15645 misc optional ros-jazzy-realsense2-camera-msgs_4.58.4-2026.09.08.16.42_amd64.buildinfo
+ 7c0e336be203573491c766934af624c4 408758 misc optional ros-jazzy-realsense2-camera-msgs_4.58.4-2026.09.08.16.42_amd64.deb

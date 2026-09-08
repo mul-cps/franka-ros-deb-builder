@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Sun, 30 Aug 2026 00:00:00 -0000
+Source: ros-jazzy-realsense2-description
+Binary: ros-jazzy-realsense2-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.58.4-2026.09.08.16.59
+Distribution: noble
+Urgency: high
+Maintainer: LibRealSense ROS Team <rsswsdk@realsensecloud.onmicrosoft.com>
+Changed-By: LibRealSense ROS Team <rsswsdk@realsensecloud.onmicrosoft.com>
+Description:
+ ros-jazzy-realsense2-description - RealSense description package for RealSense 3D D400 cameras
+Changes:
+ ros-jazzy-realsense2-description (4.58.4-2026.09.08.16.59) noble; urgency=high
+ .
+   * Update changelogs for 4.58.4
+   * Freeze 4.58.4: bump version (#3548 <https://github.com/realsenseai/realsense-ros/issues/3548>)
+   * Update version to 4.58.4
+   * pass add_plug and use_mesh args to macro 435i (#3520 <https://github.com/realsenseai/realsense-ros/issues/3520>)
+   * Merge branch 'ros2-development' into patch-1
+   * add use_mesh option in d455 camera (#3521 <https://github.com/realsenseai/realsense-ros/issues/3521>)
+   * Merge branch 'ros2-development' into ileniap/add/use-mesh/d455
+   * Merge branch 'ros2-development' into patch-1
+   * push ros2-master to ros2-development (#3543 <https://github.com/realsenseai/realsense-ros/issues/3543>)
+   * reset dev versions
+   * Merge remote-tracking branch 'origin/ros2-master' into ros2-development
+   * Add D421 URDF model and mesh to realsense2_description (#3534 <https://github.com/realsenseai/realsense-ros/issues/3534>)
+   * Merge branch 'ros2-master' into patch-1
+   * add use_mesh option in d455 camera
+   * pass add_plug and use_mesh args to macro 435i
+     When starting simulation for d435i it wasn't possible to not use the mesh disabling the arg use_mesh. This led to gazebo crashing.
+     Passed args 'use_mesh' and 'add_plug' from d435i to parent macro d435.
+   * Contributors: Ilenia, Nir Azkiel, Nir-Az, ileniap, ileniaperrella
+   * Freeze 4.58.4: bump version (#3548 <https://github.com/realsenseai/realsense-ros/issues/3548>)
+   * Update version to 4.58.4
+   * pass add_plug and use_mesh args to macro 435i (#3520 <https://github.com/realsenseai/realsense-ros/issues/3520>)
+   * Merge branch 'ros2-development' into patch-1
+   * add use_mesh option in d455 camera (#3521 <https://github.com/realsenseai/realsense-ros/issues/3521>)
+   * Merge branch 'ros2-development' into ileniap/add/use-mesh/d455
+   * Merge branch 'ros2-development' into patch-1
+   * push ros2-master to ros2-development (#3543 <https://github.com/realsenseai/realsense-ros/issues/3543>)
+   * reset dev versions
+   * Merge remote-tracking branch 'origin/ros2-master' into ros2-development
+   * Add D421 URDF model and mesh to realsense2_description (#3534 <https://github.com/realsenseai/realsense-ros/issues/3534>)
+   * Merge branch 'ros2-master' into patch-1
+   * add use_mesh option in d455 camera
+   * pass add_plug and use_mesh args to macro 435i
+     When starting simulation for d435i it wasn't possible to not use the mesh disabling the arg use_mesh. This led to gazebo crashing.
+     Passed args 'use_mesh' and 'add_plug' from d435i to parent macro d435.
+   * Contributors: Ilenia, Nir Azkiel, ileniap, ileniaperrella
+Checksums-Sha1:
+ 8fd56058452d776f1a88b49c01f34c79f6b40f7b 17205 ros-jazzy-realsense2-description_4.58.4-2026.09.08.16.59_amd64.buildinfo
+ ecf3b899ccc2d00e3ccb372aed831e7cba5e836c 15543904 ros-jazzy-realsense2-description_4.58.4-2026.09.08.16.59_amd64.deb
+Checksums-Sha256:
+ b97d2034d3b4b75d6fa461421ea2e9a899711458643a35eecec645d457d5dc6c 17205 ros-jazzy-realsense2-description_4.58.4-2026.09.08.16.59_amd64.buildinfo
+ 87378b0beaf4268e98c38b3f067305c5a65b3e448e787388b04bdde47c516d70 15543904 ros-jazzy-realsense2-description_4.58.4-2026.09.08.16.59_amd64.deb
+Files:
+ 55a3daaa5ffe3411c7efbf6275e9c3d3 17205 misc optional ros-jazzy-realsense2-description_4.58.4-2026.09.08.16.59_amd64.buildinfo
+ f618c14fdb7e2bd697c9a29591348749 15543904 misc optional ros-jazzy-realsense2-description_4.58.4-2026.09.08.16.59_amd64.deb
