@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sun, 30 Aug 2026 00:00:00 -0000
+Source: ros-lyrical-realsense2-camera-msgs
+Binary: ros-lyrical-realsense2-camera-msgs
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 4.58.4-2026.09.08.16.36
+Distribution: resolute
+Urgency: high
+Maintainer: LibRealSense ROS Team <rsswsdk@realsensecloud.onmicrosoft.com>
+Changed-By: LibRealSense ROS Team <rsswsdk@realsensecloud.onmicrosoft.com>
+Description:
+ ros-lyrical-realsense2-camera-msgs - RealSense camera_msgs package containing realsense camera message
+Changes:
+ ros-lyrical-realsense2-camera-msgs (4.58.4-2026.09.08.16.36) resolute; urgency=high
+ .
+   * Update changelogs for 4.58.4
+   * Freeze 4.58.4: bump version (#3548 <https://github.com/realsenseai/realsense-ros/issues/3548>)
+   * Update version to 4.58.4
+   * Merge branch 'ros2-development' into ileniap/add/use-mesh/d455
+   * Merge branch 'ros2-development' into patch-1
+   * push ros2-master to ros2-development (#3543 <https://github.com/realsenseai/realsense-ros/issues/3543>)
+   * reset dev versions
+   * Merge remote-tracking branch 'origin/ros2-master' into ros2-development
+   * Merge branch 'ros2-master' into patch-1
+   * Contributors: Ilenia, Nir Azkiel, Nir-Az, ileniap
+   * Freeze 4.58.4: bump version (#3548 <https://github.com/realsenseai/realsense-ros/issues/3548>)
+   * Update version to 4.58.4
+   * Merge branch 'ros2-development' into ileniap/add/use-mesh/d455
+   * Merge branch 'ros2-development' into patch-1
+   * push ros2-master to ros2-development (#3543 <https://github.com/realsenseai/realsense-ros/issues/3543>)
+   * reset dev versions
+   * Merge remote-tracking branch 'origin/ros2-master' into ros2-development
+   * Merge branch 'ros2-master' into patch-1
+   * Contributors: Ilenia, Nir Azkiel, ileniap
+Checksums-Sha1:
+ fb693a0e813b6b62d3a2eafd717bb08d8609e909 3921350 ros-lyrical-realsense2-camera-msgs-dbgsym_4.58.4-2026.09.08.16.36_amd64.ddeb
+ 18ba55196e792a6dc98027bc4468ca6f2d2a7d6d 15612 ros-lyrical-realsense2-camera-msgs_4.58.4-2026.09.08.16.36_amd64.buildinfo
+ 1a3e1e20e84f56e1c701e54db06b78b44ba18329 441644 ros-lyrical-realsense2-camera-msgs_4.58.4-2026.09.08.16.36_amd64.deb
+Checksums-Sha256:
+ d372ee9cf76c5c66ee4508cf0e72178518d5e226a68a27289695c1d1895ad757 3921350 ros-lyrical-realsense2-camera-msgs-dbgsym_4.58.4-2026.09.08.16.36_amd64.ddeb
+ 775a76bc22c4db54b7ecda5853d55a3971a20c14e10ababdf10f5646a51d27df 15612 ros-lyrical-realsense2-camera-msgs_4.58.4-2026.09.08.16.36_amd64.buildinfo
+ b2e3671d178907303902c46c838a35a1a88666eeb606214bc677e42a3a15f241 441644 ros-lyrical-realsense2-camera-msgs_4.58.4-2026.09.08.16.36_amd64.deb
+Files:
+ 90c65b9433425ec77a604ee512bb7ec3 3921350 debug optional ros-lyrical-realsense2-camera-msgs-dbgsym_4.58.4-2026.09.08.16.36_amd64.ddeb
+ ed26ef0fd0264fd374676b004e40f056 15612 misc optional ros-lyrical-realsense2-camera-msgs_4.58.4-2026.09.08.16.36_amd64.buildinfo
+ 47b54ae92cbbf34a632ecfbf4b2f5f06 441644 misc optional ros-lyrical-realsense2-camera-msgs_4.58.4-2026.09.08.16.36_amd64.deb
