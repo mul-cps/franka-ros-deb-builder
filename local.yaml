@@ -1,0 +1,54 @@
+franka_description:
+  ubuntu:
+  - ros-lyrical-franka-description
+franka_lock_unlock:
+  ubuntu:
+  - ros-lyrical-franka-lock-unlock
+franka_msgs:
+  ubuntu:
+  - ros-lyrical-franka-msgs
+integration_launch_testing:
+  ubuntu:
+  - ros-lyrical-integration-launch-testing
+libfranka:
+  ubuntu:
+  - ros-lyrical-libfranka
+orbbec_camera_msgs:
+  ubuntu:
+  - ros-lyrical-orbbec-camera-msgs
+orbbec_description:
+  ubuntu:
+  - ros-lyrical-orbbec-description
+franka_gripper:
+  ubuntu:
+  - ros-lyrical-franka-gripper
+franka_hardware:
+  ubuntu:
+  - ros-lyrical-franka-hardware
+franka_utils:
+  ubuntu:
+  - ros-lyrical-franka-utils
+mul_franka_description:
+  ubuntu:
+  - ros-lyrical-mul-franka-description
+orbbec_camera:
+  ubuntu:
+  - ros-lyrical-orbbec-camera
+franka_moveit_config:
+  ubuntu:
+  - ros-lyrical-franka-moveit-config
+franka_semantic_components:
+  ubuntu:
+  - ros-lyrical-franka-semantic-components
+franka_example_controllers:
+  ubuntu:
+  - ros-lyrical-franka-example-controllers
+franka_robot_state_broadcaster:
+  ubuntu:
+  - ros-lyrical-franka-robot-state-broadcaster
+franka_bringup:
+  ubuntu:
+  - ros-lyrical-franka-bringup
+mul_franka_launch:
+  ubuntu:
+  - ros-lyrical-mul-franka-launch
