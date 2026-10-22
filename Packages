@@ -1,0 +1,505 @@
+Package: ros-lyrical-franka-bringup
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.27
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 72
+Depends: ros-lyrical-controller-manager, ros-lyrical-franka-description, ros-lyrical-franka-hardware, ros-lyrical-franka-robot-state-broadcaster, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher, ros-lyrical-joint-trajectory-controller, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-franka-bringup_0.1.0-86-gc0e1f82-2026.10.22.17.27_amd64.deb
+Size: 8140
+MD5sum: 607a7391446a3ea335bfecdc4db9fbc2
+SHA1: 2902c673978d1db41c3d5dc7bff051d07c717814
+SHA256: 65d29db7797c7e1f34df941472c3623a1151e414e062be46ad2cc2d40fa75648
+SHA512: 98e72b9ec64bba4b55b12f4d6467971e998fb1fe73d23936563e0cac9ff22262711f9e183cbabeb95c0bfb9248991b72cc5551cbd78696a5eef0cf53edd0e395
+Homepage: https://index.ros.org/p/franka_bringup/#lyrical
+Description: Package with launch files and run-time configurations for using Franka Emika research robots with ros2_control
+
+Package: ros-lyrical-franka-description
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.16.55
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 10357
+Depends: ros-lyrical-joint-state-publisher-gui, ros-lyrical-moveit-resources-panda-moveit-config, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-franka-description_0.1.0-86-gc0e1f82-2026.10.22.16.55_amd64.deb
+Size: 2993652
+MD5sum: f35cc60dafb1713c7a14d3f57cacb359
+SHA1: f32dadae60f3f8dc2dda62c8843e06adb5b3de33
+SHA256: 87d1618c6ca83c09833e472b594bb9c6367c6c1489fe3912d47a0cd5509053a3
+SHA512: 89f28e2dca56e8f857a83356dee21ae5675558b476d59b02a9b62ee4b90e49fbd958b60d91d435459bca0c8dc46443c90befcf66cd7c4020f7e472f353994d2c
+Homepage: https://index.ros.org/p/franka_description/#lyrical
+Description: franka_description contains URDF files and meshes of Franka Emika robots
+
+Package: ros-lyrical-franka-example-controllers-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-example-controllers
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 1702
+Depends: ros-lyrical-franka-example-controllers (= 0.1.0-86-gc0e1f82-2026.10.22.17.24)
+Filename: ./ros-lyrical-franka-example-controllers-dbgsym_0.1.0-86-gc0e1f82-2026.10.22.17.24_amd64.ddeb
+Size: 1635654
+MD5sum: ed5805304e359d3627af93c18684af23
+SHA1: 8a472d10fcdcf222ff0c64c557199bf73593d587
+SHA256: 198d28d3905d0af2ba7ad0e161312d647340a27dea0b7e26217b0a38b72d2468
+SHA512: 71a96fa39d9dd83367c154055f335b3c63f7e297800b67b63dbf19ce66b1dbdf3480ff3288f7a4216da8ca08eb9b2bcb61a5ca24f6d9e9ae31a815591c82c22c
+Description: debug symbols for ros-lyrical-franka-example-controllers
+Build-Ids: f3b3e6eade12f29fe4a32b4a348cd46c1b8bf653
+
+Package: ros-lyrical-franka-example-controllers
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.24
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 247
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-libfranka, ros-lyrical-controller-interface, ros-lyrical-franka-msgs, ros-lyrical-franka-semantic-components, ros-lyrical-generate-parameter-library, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-rclcpp-lifecycle
+Filename: ./ros-lyrical-franka-example-controllers_0.1.0-86-gc0e1f82-2026.10.22.17.24_amd64.deb
+Size: 62600
+MD5sum: 43ad64b3da65f6bf85d80815d05b65f6
+SHA1: cbad31abb01d0666ec9c44f21fcb69a4aaf1d970
+SHA256: 26e6e131d1aa5309aef3a77c7e02af093a0286efce71b487b530d9d7f8fedb7c
+SHA512: e6e5f5a4a7c5bc87e81d0e0979153ecca2d18793ad0ad2b157913fdeb4009a30c616e9e1ff53d086d97d1733e58a6b4ebb5492d6a5e2ffca800ce728523f9a84
+Homepage: https://index.ros.org/p/franka_example_controllers/#lyrical
+Description: franka_example_controllers provides example code for controlling Franka Emika research robots with ros2_control
+
+Package: ros-lyrical-franka-gripper-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-gripper
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 2767
+Depends: ros-lyrical-franka-gripper (= 0.1.0-86-gc0e1f82-2026.10.22.17.05)
+Filename: ./ros-lyrical-franka-gripper-dbgsym_0.1.0-86-gc0e1f82-2026.10.22.17.05_amd64.ddeb
+Size: 2350994
+MD5sum: fea7ad88e03cc4159f06ef0bec603aa2
+SHA1: 36de46b69ab9c90a429deda2c976729212db2d4e
+SHA256: 69b7cb17a8f76979755ef7934b09491b46ce64359b7ede5c520cf29838b2bfcd
+SHA512: 26f8c910c08496765ee24574928b7b4d3193bb02442d09058966388940be8464a948701f8e25935cdc87ff1bdf2bca69f82c1f3448053b8301147d5159d514f6
+Description: debug symbols for ros-lyrical-franka-gripper
+Build-Ids: 983bb210e7c0b1a0edbe14bc790af3aa9855c1be c8c83b2ac702c01a2da8c506352efb8c89f4d668
+
+Package: ros-lyrical-franka-gripper
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.05
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 590
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-libfranka, ros-lyrical-control-msgs, ros-lyrical-franka-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rclpy, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs
+Filename: ./ros-lyrical-franka-gripper_0.1.0-86-gc0e1f82-2026.10.22.17.05_amd64.deb
+Size: 137070
+MD5sum: 41debf74f0cff50709d4977edd2827a9
+SHA1: 0b007b69f5b3ef42edf8741176df6881934123b9
+SHA256: a8eb30e40c0c5259a54fa904faccf82c741cee859d7b7087f46d1938271e8a4e
+SHA512: 340f419eab88ee8cb15c5c5adff75ec0b2441110b95b99a858ff07b93c2c4579a7d4b0a0485e978ca348290f0b4813371deb685f257df88e1b0fee8a7be06e29
+Homepage: https://index.ros.org/p/franka_gripper/#lyrical
+Description: This package implements the franka gripper of type Franka Hand for the use in ROS2
+
+Package: ros-lyrical-franka-hardware-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-hardware
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 708
+Depends: ros-lyrical-franka-hardware (= 0.1.0-86-gc0e1f82-2026.10.22.17.07)
+Filename: ./ros-lyrical-franka-hardware-dbgsym_0.1.0-86-gc0e1f82-2026.10.22.17.07_amd64.ddeb
+Size: 659726
+MD5sum: 9ba689c56b01b86d3938e33758c9d4be
+SHA1: 3d8383d740378c61eac56646dd0eec4bcecfa7e7
+SHA256: 2148ca6734b742a486cbc89435520ed1b329024c2725844d322cde289ef90041
+SHA512: c88357a8f1b1b3431fea2f41293d93e4b89ca3c31d06cf83c014d951c3236f962f84883e18776a9fe12c3b308630f7a2824fcf312d8519655a0b148b32a0ec8c
+Description: debug symbols for ros-lyrical-franka-hardware
+Build-Ids: 3a34a5e524277465859d1eff41d8aa467c876ff1
+
+Package: ros-lyrical-franka-hardware
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.07
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 194
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-lyrical-libfranka, ros-lyrical-franka-msgs, ros-lyrical-hardware-interface, ros-lyrical-pluginlib, ros-lyrical-rclcpp
+Filename: ./ros-lyrical-franka-hardware_0.1.0-86-gc0e1f82-2026.10.22.17.07_amd64.deb
+Size: 45350
+MD5sum: 8156499ee891ef359a4eac27554a4b15
+SHA1: d1114cb1668fd53a3e077fa25ad45c25191e169b
+SHA256: dae8dd7d5630c688e789bb181488770f1116bb67dbf430053d08661d0e367776
+SHA512: 7d25717b4aa93c3eca1dde65b540ad08108c1d5686064b7b91a5e098b06603d700d69f2d7663ecb2151e0b5c65d8f409a4a4ca79a09df5ba9312662f4e2a4262
+Homepage: https://index.ros.org/p/franka_hardware/#lyrical
+Description: franka_hardware provides hardware interfaces for using Franka Emika research robots with ros2_control
+
+Package: ros-lyrical-franka-lock-unlock
+Architecture: amd64
+Version: 4.2.1-1-2026.10.22.16.56
+Priority: optional
+Section: misc
+Maintainer: "jk-ethz" <ethz@juliankeller.net>
+Installed-Size: 76
+Depends: ros-lyrical-launch-xml
+Filename: ./ros-lyrical-franka-lock-unlock_4.2.1-1-2026.10.22.16.56_amd64.deb
+Size: 14686
+MD5sum: 9fad00557cd256a61c5ad1361adea6b6
+SHA1: 217e4b294edbed4aa494c8b55e0170b2a657916c
+SHA256: d30e0dffe20675b419a97aa03cf5cd2099ce3c4f3fc41bac4f9ca8296e13df52
+SHA512: 1654212e02f9e9a7a734acdf5eaad8d0b0778d61a1414e66530b710a23e4611e0e70bb550043b677d9daec07d0ed617f985585ae8afb22aabc552e437f1d90a2
+Homepage: https://github.com/jk-ethz/franka_lock_unlock
+Description: Lock or unlock the Franka Emika Panda joint brakes programmatically.
+
+Package: ros-lyrical-franka-moveit-config
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.22
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 97
+Depends: ros-lyrical-controller-manager, ros-lyrical-franka-description, ros-lyrical-franka-gripper, ros-lyrical-franka-hardware, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher, ros-lyrical-joint-trajectory-controller, ros-lyrical-moveit-kinematics, ros-lyrical-moveit-planners-ompl, ros-lyrical-moveit-resources-panda-moveit-config, ros-lyrical-moveit-ros-move-group, ros-lyrical-moveit-ros-visualization, ros-lyrical-moveit-simple-controller-manager, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-franka-moveit-config_0.1.0-86-gc0e1f82-2026.10.22.17.22_amd64.deb
+Size: 14604
+MD5sum: 2dba2624ed97e412b58d5e036a21f9ec
+SHA1: 7658e2dd0d9425cd1057d266da90bf6d0b2561af
+SHA256: 1539b2a58574fb237279266979b8deb267dd6449538b6779371c296f52201224
+SHA512: f49fe4feaa112c86d4108a1683c1845ed5f6ed9f120e528f0659a4b9e761c5294c2678fa79ecef16287101ddc22ac34a2340e2ec064d9aff1b1fd0f10fb8e2e2
+Homepage: https://index.ros.org/p/franka_moveit_config/#lyrical
+Description: Contains Moveit2 configuration files for Franka Emika research robots
+
+Package: ros-lyrical-franka-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.16.57
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-msgs
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 2998
+Depends: ros-lyrical-franka-msgs (= 0.1.0-86-gc0e1f82-2026.10.22.16.57)
+Filename: ./ros-lyrical-franka-msgs-dbgsym_0.1.0-86-gc0e1f82-2026.10.22.16.57_amd64.ddeb
+Size: 1970178
+MD5sum: 54fbe5425d7394c256b2470fda360ba4
+SHA1: 2d8de7a7c82790fa89df6195b80cc7c6b675593d
+SHA256: b4c89bc75b5660b11982e0daa2c1bb2514ff81f7a5c3dcdc0ed1c9025d9ecc86
+SHA512: f3a2c670eaf7aa5bf73846feb998cf88fc7455c53cf7d3a67549100331ce88fff175d364acfb869be744cfa51e7c66c5f9332adcd9c839afbf2eac72a73b8d0e
+Description: debug symbols for ros-lyrical-franka-msgs
+Build-Ids: 2dc733db8381c13491e9b1a73b0a22e88d302065 4828c5a22e475c0b05d87f53b9e58341381633ce 50569dc4eba9821098d3d976158bed1cacb3a44d 8f559e54e9d52a2876ffbff97139de179e24456a 97aef09700f36dc2bca4b77a202c1fa5e65422c7 bd38dff94312e1a73a452fedb95abe4f9d1b90c3 c7bef1ef355b7a3bca778eb90efa8ed30e1c31be c865b92a69835b6658a68bcd15267bcd16145205 c9158c2741dc70d33053c5732b2b2a64732d2385 d14499f15648a882e8ea09d2ce56dfac5464fef0 f4ae668d687951705cd6ea9090497c0acbc454eb
+
+Package: ros-lyrical-franka-msgs
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.16.57
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 5452
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.14 (>= 3.14.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-action-msgs, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs
+Filename: ./ros-lyrical-franka-msgs_0.1.0-86-gc0e1f82-2026.10.22.16.57_amd64.deb
+Size: 347072
+MD5sum: 105be8617d81aaed150372545a1e3775
+SHA1: 440074375da6f6db2ac8fc6f9823f8e0fa420a4b
+SHA256: 6539cbbb788f6f7387efe936d48fe40bab1e48a66926b296af148772fe91d3da
+SHA512: cf5907f10192c181d440b702dca0d986babe968f9e8af12a2343a13e9c6de78b356f6a912f74c12e523f7b93afe2eb17ad8b06adc9bedced6926a1573beab2ab
+Homepage: https://index.ros.org/p/franka_msgs/#lyrical
+Description: franka_msgs provides messages and actions specific to Franka Emika research robots
+
+Package: ros-lyrical-franka-robot-state-broadcaster-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-robot-state-broadcaster
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 1118
+Depends: ros-lyrical-franka-robot-state-broadcaster (= 0.1.0-86-gc0e1f82-2026.10.22.17.26)
+Filename: ./ros-lyrical-franka-robot-state-broadcaster-dbgsym_0.1.0-86-gc0e1f82-2026.10.22.17.26_amd64.ddeb
+Size: 1013204
+MD5sum: 63eac2c0a8c7eed7b7d2f5b7c6a1de5b
+SHA1: f2dbadfc9a7f7644d8e295cf6a23160e7fdb4c85
+SHA256: 26933cf6e7eb58deafceb8724f2e212bef517a8b4fb48162894ac4371e8db07f
+SHA512: 58cfa2670d5d7828ef1e967cfc6903e00a0761a731072f91d82d3a0b7479c1b0f5ecd9c3268168a8c82e8bfb8bdd6f344dabad74520c6b52e4cb303e70a105ac
+Description: debug symbols for ros-lyrical-franka-robot-state-broadcaster
+Build-Ids: 2a15ee4f7db32de67374550598bdcea615ab0177
+
+Package: ros-lyrical-franka-robot-state-broadcaster
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.26
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 270
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-builtin-interfaces, ros-lyrical-control-msgs, ros-lyrical-controller-interface, ros-lyrical-franka-msgs, ros-lyrical-franka-semantic-components, ros-lyrical-generate-parameter-library, ros-lyrical-pluginlib, ros-lyrical-rclcpp-lifecycle, ros-lyrical-rcutils, ros-lyrical-realtime-tools, ros-lyrical-sensor-msgs
+Filename: ./ros-lyrical-franka-robot-state-broadcaster_0.1.0-86-gc0e1f82-2026.10.22.17.26_amd64.deb
+Size: 76586
+MD5sum: 06971a2f28a8353f3c34db1fe352ceeb
+SHA1: b69b744aac482fc22ecd12730e95e1aea0bb1ccc
+SHA256: 908e71612e462328c6ff39fc997d3b6a630c54865d82013cc9440aaa9548c6dc
+SHA512: 3bb3adae8fad0cc8282532341dfce221e352b2ff33e42fdaf85273e526cac2cfdf20cbb129a0059628ce34e003341d253dffe072c8fba01f7a651168f69391f2
+Homepage: https://index.ros.org/p/franka_robot_state_broadcaster/#lyrical
+Description: Broadcaster to publish robot states
+
+Package: ros-lyrical-franka-semantic-components-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.23
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-semantic-components
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 555
+Depends: ros-lyrical-franka-semantic-components (= 0.1.0-86-gc0e1f82-2026.10.22.17.23)
+Filename: ./ros-lyrical-franka-semantic-components-dbgsym_0.1.0-86-gc0e1f82-2026.10.22.17.23_amd64.ddeb
+Size: 531554
+MD5sum: 38cf85e29148086f7d8c239da2227728
+SHA1: badebd674043cf01bee2300cad4ad0483d374b60
+SHA256: 155f59df271b9fd09055419d65462f9342814ea2325236f9d8fcbdbf55c7bbf0
+SHA512: e1b5497e2b228aa1bdb032838c47a7fa05eb4ac3f9de968a05bdeceb322cba1051d3e18516f9375c915683cc194dd1dadb29ef2e009aae8ff91bad244f558dae
+Description: debug symbols for ros-lyrical-franka-semantic-components
+Build-Ids: 7da8318f7eadfd7f87e6d0255366232b836744fb
+
+Package: ros-lyrical-franka-semantic-components
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.17.23
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 123
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-libfranka, ros-lyrical-controller-interface, ros-lyrical-franka-hardware, ros-lyrical-franka-msgs, ros-lyrical-hardware-interface, ros-lyrical-rclcpp
+Filename: ./ros-lyrical-franka-semantic-components_0.1.0-86-gc0e1f82-2026.10.22.17.23_amd64.deb
+Size: 27614
+MD5sum: 710c09897ce1d1214e7d0823dde423a9
+SHA1: 00427d5bb0941a166828ca0648be54eb7a2a7087
+SHA256: d270555e3d0963b6e2b4dc4df1c15fa0a1b42a7a022258c1b8b0db9bbca3888f
+SHA512: 4c2b5682d5df0ebcf5100930c76616ede4c8bd3e346d4a82214eb221944c3512602830737e9e58771fe30615aef91cb4d9417d8b9f086d7d89d469fead819797
+Homepage: https://index.ros.org/p/franka_semantic_components/#lyrical
+Description: franka_semantic_components provides semantic components for using Franka Emika research robots with ros2_control
+
+Package: ros-lyrical-franka-utils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.1.1-2026.10.22.17.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-franka-utils
+Maintainer: "Christian Rauch" <Christian.Rauch@de.bosch.com>
+Installed-Size: 1088
+Depends: ros-lyrical-franka-utils (= 0.1.1-2026.10.22.17.08)
+Filename: ./ros-lyrical-franka-utils-dbgsym_0.1.1-2026.10.22.17.08_amd64.ddeb
+Size: 1069084
+MD5sum: bf72a2593157cc37444f6fc3c5aafead
+SHA1: ce4671caa2195f608ef65dec4246889210bf28f3
+SHA256: 5621e517fac5151881ff45b667c4fefd9d502e5751e21fc8ab2e1ee70142ba57
+SHA512: 1599da36817fbc43d3c2049533301d8dda0b40250544cbbdea268bd08c8d56a13b7cec8082cfb00392539c59d68654bb9b88f9da2c7f158f6b528b5a70c43f05
+Description: debug symbols for ros-lyrical-franka-utils
+Build-Ids: 73c7caee480c64d25a918bda0013c97c97a8bfdf c298e155f6e84829dc034c2333e25b2cc5736027
+
+Package: ros-lyrical-franka-utils
+Architecture: amd64
+Version: 0.1.1-2026.10.22.17.08
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@de.bosch.com>
+Installed-Size: 66
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), liburdfdom-model5 (>= 5.1.0), ros-lyrical-libfranka, libeigen3-dev, liburdfdom-dev, liburdfdom-headers-dev
+Filename: ./ros-lyrical-franka-utils_0.1.1-2026.10.22.17.08_amd64.deb
+Size: 16820
+MD5sum: 321b545e20153f8c74f937225cbd95d3
+SHA1: 12de527d2fc5dacb4edde8696fd718580b3f62ed
+SHA256: 836fc94afc2ea0f761a06dc7c6ae53ec4f86de92825d9c0108c16052b4f3bb22
+SHA512: 6544dcaec04c12f6ab1e13cae7829102156b85bf8b12e5223f473e1e4b362c0b3468879fa624d2cbe98d4e81ee977fbc29aee128304da6b753d313283a89fb5e
+Homepage: https://index.ros.org/p/franka_utils/#lyrical
+Description: utils for Franka robot
+
+Package: ros-lyrical-integration-launch-testing
+Architecture: amd64
+Version: 0.1.0-86-gc0e1f82-2026.10.22.16.58
+Priority: optional
+Section: misc
+Maintainer: "Franka Emika GmbH" <support@franka.de>
+Installed-Size: 68
+Filename: ./ros-lyrical-integration-launch-testing_0.1.0-86-gc0e1f82-2026.10.22.16.58_amd64.deb
+Size: 9556
+MD5sum: a0046285746ee92537408268b64758bc
+SHA1: 08bc3aa565edbfca736c2995f474e6d2d825d4bd
+SHA256: 197cb4babc7a1ea2a7bf874ee720eb0129e84741efd1c59a82a16f54fdab4690
+SHA512: cb1762c6f0b3cdf0a44691a66938dcd960a8a4d260b99745ac31fc9a374b057ffab97719d87f4ba919855bd0f0c6d73ccfd7dcb1d9a145d2ce74cd12be2a795f
+Homepage: https://index.ros.org/p/integration_launch_testing/#lyrical
+Description: Functional integration tests for franka controllers
+
+Package: ros-lyrical-libfranka-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.9.2-24-g55e4ab7-2026.10.22.16.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-libfranka
+Maintainer: "Franka Robotics GmbH" <support@franka.de>
+Installed-Size: 8168
+Depends: ros-lyrical-libfranka (= 0.9.2-24-g55e4ab7-2026.10.22.16.59)
+Filename: ./ros-lyrical-libfranka-dbgsym_0.9.2-24-g55e4ab7-2026.10.22.16.59_amd64.ddeb
+Size: 7722904
+MD5sum: 27112bd602796ae90b3cf6e5c8a256bc
+SHA1: 454044aa54c0f10e86a2fa3f78d9d1677c58e58f
+SHA256: 0fa37bd17156ee47634c1d5973db15fedf96916f719d9263730f739d422836ed
+SHA512: 1f8a10f9892f27b715d27564bf67c61ab30a9308ddb0f6db3722036357d01cfc2c8b7103c699a706f2cc2fa92f1ce18aeed2671e1f8c207c8c3ebef99e368d98
+Description: debug symbols for ros-lyrical-libfranka
+Build-Ids: 17a495be5e9a4a095a3cb93d933d3bb9b982642b 307c53f2aa9cdb6ada52f3c88a8ae0ff6770e283 476889adf475e1b07567c13aaacc2521605d6726 5116e69594577cd5be30596db2b1bc5bf7de575c 744af3f033afcd81818a857772436c78989a24e7 8835a4cb562c0fdb3e9dc129802aff853265dbe5 8d90d3e22249a47f27b8559c191add83b08812c4 8f5274312d96798fac2fa7e4b0a0e77ad165dcf8 9fc6b7cad7dfbccbee7ba493da5c5eed3f3ce5c8 a45261a54485a905db6eea53588c664f5fa827d3 a9563ca60e144d767cf7b17529b7abeaeba465e7 b23f5c41d71b4acfe7f4fe72896f882c3f0bc92e b6d5957e37863e485f861d8fd2378a44b973f660 d3405a1cb0e74afe6d805bfc0d6b74bc25f9af68 d45e49126bb1c10dcaba7937441eb09ab87194cf e5b6bb3e672e5ccbd1ca8932c3de9e1c9ad94d9c ef76c9a02da9b86f17b1948c1344756dcd0b950d
+
+Package: ros-lyrical-libfranka
+Architecture: amd64
+Version: 0.9.2-24-g55e4ab7-2026.10.22.16.59
+Priority: optional
+Section: misc
+Maintainer: "Franka Robotics GmbH" <support@franka.de>
+Installed-Size: 865
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpocofoundation112 (>= 1.14.2), libpoconet112 (>= 1.14.2), libstdc++6 (>= 14), libpoco-dev
+Filename: ./ros-lyrical-libfranka_0.9.2-24-g55e4ab7-2026.10.22.16.59_amd64.deb
+Size: 160530
+MD5sum: 6700979f462fb1d7c9d5e55021798d9a
+SHA1: 446353e6d1e0e6b45d0e8c7bb23b2ed80a9859f1
+SHA256: 48a36f587a8a60f64d82f2480512db64b9d145df5444dc4c9590096f2422b730
+SHA512: 59a0b1a9286357af807920cb065f99ece9e96a8f0ff5201f402ec274301a8e39a7ecdda8ad5582da50ac2b6d5eb73f689c89c28c05a644365c759db18d37a9f4
+Homepage: http://wiki.ros.org/libfranka
+Description: libfranka is a C++ library for Franka Robotics research robots
+
+Package: ros-lyrical-mul-franka-description
+Architecture: amd64
+Version: 0-2026.10.22.17.09
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 1364
+Depends: ros-lyrical-franka-description, ros-lyrical-orbbec-description, ros-lyrical-realsense2-description
+Filename: ./ros-lyrical-mul-franka-description_0-2026.10.22.17.09_amd64.deb
+Size: 313126
+MD5sum: 4abb058f3fde74f770a4dc558f7fe241
+SHA1: a164f3812536708191c73fa1ce9a6313ad8ae62d
+SHA256: 767af5c129f2b21bc1441cf293373752383d2088f8ab3a34743f90021f87d5a0
+SHA512: 3621ce3e7177d7b37a4f893cf7496c65aabea1e23a1daa9e68596c0929f3fb24a3a22c402f1679b37bf4abdac7c1fca83b71a0b9cf74f303cc3d2a59784d2b9c
+Homepage: https://index.ros.org/p/mul_franka_description/#lyrical
+Description: robot description files for the MUL Franka setup
+
+Package: ros-lyrical-mul-franka-launch
+Architecture: amd64
+Version: 0-2026.10.22.17.28
+Priority: optional
+Section: misc
+Maintainer: "Christian Rauch" <Christian.Rauch@unileoben.ac.at>
+Installed-Size: 93
+Depends: ros-lyrical-compressed-image-transport, ros-lyrical-control-msgs, ros-lyrical-controller-manager, ros-lyrical-depth-image-proc, ros-lyrical-franka-gripper, ros-lyrical-franka-moveit-config, ros-lyrical-franka-robot-state-broadcaster, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-state-publisher, ros-lyrical-joint-trajectory-controller, ros-lyrical-launch-ros, ros-lyrical-moveit-resources-panda-moveit-config, ros-lyrical-moveit-ros-move-group, ros-lyrical-moveit-servo, ros-lyrical-moveit-simple-controller-manager, ros-lyrical-mul-franka-description, ros-lyrical-orbbec-camera, ros-lyrical-realsense2-camera, ros-lyrical-robot-state-publisher, ros-lyrical-rosbag2-transport
+Filename: ./ros-lyrical-mul-franka-launch_0-2026.10.22.17.28_amd64.deb
+Size: 13504
+MD5sum: e53ee757a5ed77186bb14c92e6da7f3c
+SHA1: ed7dd668bce8ec40fcf64bdfdc18c296efe84a16
+SHA256: ae1e8d1e1e2a9f3f9813d459df883f1a072c6fb00d465e47f8e3bf2a1b3b6f78
+SHA512: 8e1dc7bef2a3fc30599d6e88fef84de5d2fa296902ecf4319ea14d367e11d29c1c37a941221c16b6b9ff6e24bdf6d816c70d5ec0dbb633f19f92e32cd7379a5e
+Homepage: https://index.ros.org/p/mul_franka_launch/#lyrical
+Description: launch files for the MUL Franka
+
+Package: ros-lyrical-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.6-3-g9768f323-2026.10.22.17.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-orbbec-camera
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 81619
+Depends: ros-lyrical-orbbec-camera (= 2.10.6-3-g9768f323-2026.10.22.17.10)
+Filename: ./ros-lyrical-orbbec-camera-dbgsym_2.10.6-3-g9768f323-2026.10.22.17.10_amd64.ddeb
+Size: 68939136
+MD5sum: 67a94e2e5ad0571a9a01abf5a10fd76b
+SHA1: bdc3837db6bd7a0b4b0548b6450e2045e2150477
+SHA256: 0529e21eabf7cad179aae5c46fd5ca82dd78a64de2bfa22efb2cf9a6179237ac
+SHA512: e2e11ddb7dbd1fe41ccab974ee6c8b6f3cdb4d299b77e3cd468c3e235fcef4ecd6010a1bf5187b6c5afa9081b08617d0402d7e23aff907b4f2d355ee4b50881c
+Description: debug symbols for ros-lyrical-orbbec-camera
+Build-Ids: 08c8967f9b9d19bbc35278881fc75587309036fb 0c1823dee9a47b6238407e66e579202189960986 0ec441309d1170927b041f7cb7887c543b8a9482 115733a9f643772d498dd8879f6489b5c4b374c8 1bd81efc317ff3aa335a28e8425f392866c3e03e 328cbcc4ca68e70849bb07254be952e90d9ce538 4bf907513621b11b77c4a10f270fcf241aaaf55b 519e6c313bba7415c7a2a51137ca5b17802299ec 5bfa8a6c8db136f2091ecace4a9766b82749a2f7 6a733e30272a94b72216ee91de8e265a0fb5240e 757ba7578a4758485a284831f6efd0ec95148ec9 80a1ceb624c1ab5b91666a0b343770e24c32e281 80cac6f3adc13e0adbaf7ae718b71bc7f1a35dd9 85c4943d3755db1c66c22ef3a42970ada76dfccf 897caab2e9bd4ab3314488c11713288d0b27056c 8cd60a9b867bc9c28b4d39f973c23caf51268b01 90d6e83c96e4b5a702c956ea325a1d4db540472d 9388d64584b3e5e9f2b3dfc83dc24222f7e9a42e 947cb99298d1f4a572573a48ab7d2690b8a20c10 a235bd1a6e91ea3af1161257d107be817fd241c0 a798160d881d623b4fe2331fc5b14eb118674d6b b1ccb12e2a59e7d7ccd5c86ef9f381e697ad159d bf7e6e83a985ef143d2f68117ec3308670d2fdef cac0e00dd1f809f5dd1f684996d40b4314f5180e dae5068d7ba2b8d485b97f0d1b4cdfa233d5a42a dfcc047d9806fccedcccc73278a0e1d8fbf79563 e1750ba98eeec32acf941392184346808bb43b0d
+
+Package: ros-lyrical-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.6-3-g9768f323-2026.10.22.17.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-orbbec-camera-msgs
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 9604
+Depends: ros-lyrical-orbbec-camera-msgs (= 2.10.6-3-g9768f323-2026.10.22.17.01)
+Filename: ./ros-lyrical-orbbec-camera-msgs-dbgsym_2.10.6-3-g9768f323-2026.10.22.17.01_amd64.ddeb
+Size: 7111284
+MD5sum: 3f8dbee6b968e501e02b0369bcf5804b
+SHA1: 3bcc1fb8f7ffa12bb93fee1502f9658a9d91d550
+SHA256: ed0cc50b4a16fc59f467d51490effc960534ead01355866d5766961137770f94
+SHA512: 11fd6c95aae554be24866e7531044f279e31b296ef08e2f83ad63f85a3802b7de9a096de6bf1a5fc946d2fda8bfec008671ca8d17de72e37748424033bcdf24c
+Description: debug symbols for ros-lyrical-orbbec-camera-msgs
+Build-Ids: 08413afc6f10a0b4ccf63770602477e24815eaff 0bd50c13b7d12c8c58e2df8f282854afe9311077 2388f2a184c6a0445fae2d849ba8eb28f9dc8dbe 3a64bcd172054c619f0b1f007507d52d36b963bc 3d7175a2caef85ec09cf615c3e19a40aa4fa6ff1 43c556db28b3ef473a18a19d888735672b3d55b2 4c42aa9ae40cc536a7d0e93af1f70fbcf5383b41 c119ed8b395b6bfc1ce937005004b46348b0fc70 e0ac21bf8e5aaa58b706adb0a5570977a499fb4d e0e2e7b2ec523785a97b2994b7309344018ebe7b e943d2714e0cc6a82cb415e941780400d7577744
+
+Package: ros-lyrical-orbbec-camera-msgs
+Architecture: amd64
+Version: 2.10.6-3-g9768f323-2026.10.22.17.01
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 12175
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.14 (>= 3.14.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-action-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs
+Filename: ./ros-lyrical-orbbec-camera-msgs_2.10.6-3-g9768f323-2026.10.22.17.01_amd64.deb
+Size: 749338
+MD5sum: 055f5409b262f9b329267a7bd9be0762
+SHA1: f1682997532a3a214efbe1d30352cf4ea67dc3cd
+SHA256: 80f0008c7b55ee838bd432d92ddffa6e246dfd7c9c63ee15d60e947ea92ce49f
+SHA512: 5e8d6230b662551cf140d938bfb45f39d894b0eefc760ecb70e54a923916907df3179a07b0d80e65b41b1297db71ef5f5486003764ab801049fac01dbce1591e
+Homepage: https://index.ros.org/p/orbbec_camera_msgs/#lyrical
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-lyrical-orbbec-camera
+Architecture: amd64
+Version: 2.10.6-3-g9768f323-2026.10.22.17.10
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 41684
+Depends: libc6 (>= 2.43), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.2), libopencv-calib3d410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, libopencv-dev, libssl-dev, libyaml-cpp-dev, nlohmann-json3-dev, python3-psutil, python3-tabulate, python3-yaml, ros-lyrical-ament-index-cpp, ros-lyrical-ament-index-python, ros-lyrical-ament-lint-auto, ros-lyrical-ament-lint-common, ros-lyrical-backward-ros, ros-lyrical-builtin-interfaces, ros-lyrical-camera-info-manager, ros-lyrical-cv-bridge, ros-lyrical-diagnostic-msgs, ros-lyrical-diagnostic-updater, ros-lyrical-geometry-msgs, ros-lyrical-image-publisher, ros-lyrical-image-transport, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-message-filters, ros-lyrical-orbbec-camera-msgs (>= 2.10.6), ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rclpy, ros-lyrical-rmw, ros-lyrical-sensor-msgs, ros-lyrical-statistics-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-tf2-msgs, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs
+Filename: ./ros-lyrical-orbbec-camera_2.10.6-3-g9768f323-2026.10.22.17.10_amd64.deb
+Size: 10963942
+MD5sum: eca00a6708d49e483edaf7860cf553cb
+SHA1: 339f6556a30111b3192b68ec54148adea1f80e5e
+SHA256: 777ae084008a8748f555aa57856d2ed92708aeefbb856040407bcab41e35d239
+SHA512: 01a16280c1dda601ac2eba3b6b0a1ab3f6fb7e75799cc6bcdd5aad89a6eeab0e2e6097bf30bfdb96a6f78b19a10581b6b19798382cfef3312c05988e18e9863d
+Homepage: https://index.ros.org/p/orbbec_camera/#lyrical
+Description: Orbbec Camera package
+
+Package: ros-lyrical-orbbec-description
+Architecture: amd64
+Version: 2.10.6-3-g9768f323-2026.10.22.17.04
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 119635
+Depends: ros-lyrical-ament-index-python, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-orbbec-description_2.10.6-3-g9768f323-2026.10.22.17.04_amd64.deb
+Size: 20829564
+MD5sum: aee5a23b3f214760a5acab17bd6d918b
+SHA1: a9fa19b9dda957e75f78ddf8571230453d37eccd
+SHA256: 7f99acbff6c329d1d4c901672b8bf7689b81734afe2384a2dfc5daa409858094
+SHA512: 4fb681370208c3553cbce21aa1f3d806985f24047f6f31f580e5012726f3e56980e97bb31b3c0a1b875577ee83e612bac965aef4f5c39d228132c993e8cdd745
+Homepage: https://index.ros.org/p/orbbec_description/#lyrical
+Description: TODO: Package description
+
