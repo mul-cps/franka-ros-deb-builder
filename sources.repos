@@ -22,6 +22,11 @@ repositories:
     url: https://github.com/jk-ethz/franka_lock_unlock.git
     version: v4.2.1-1
 
+  src/pymoveit2:
+    type: git
+    url: https://github.com/AndrejOrsula/pymoveit2.git
+    version: 5.1.0
+
   src/OrbbecSDK_ROS2:
     type: git
     url: https://github.com/christian-rauch/OrbbecSDK_ROS2.git
