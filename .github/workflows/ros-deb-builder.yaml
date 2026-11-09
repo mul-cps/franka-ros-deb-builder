@@ -20,6 +20,7 @@ jobs:
           - {ros: lyrical, deb: resolute}
 
     steps:
+      - run: git lfs install
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: ${{ matrix.ros }}
